@@ -22,6 +22,12 @@
 
     </head>
     <style>
+        #price{
+            padding-top:50px;
+        }
+        .icons{
+            margin-top: 150px;
+        }
     h4{
         width:100%;
         }
@@ -48,12 +54,21 @@
         .articles{
             visibility:hidden;
         }
+        .carousel{
+            margin-top: 150px;
+            box-shadow: 4px 4px 10px 1px black;
+        }
+        form{
+            margin-top:150px;
+        }
     </style>
     <script>
         
         $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('select').material_select();
             $(".button-collapse").sideNav();
+            $('.modal').modal();
             var options =[{
                 selector:".priceprint", offset:200, callback:function(el){
                 $(el).each(function(){
@@ -91,6 +106,25 @@
 });
     </script>
     <body>
+        <div id="modal1" class="modal">
+    <div class="modal-content">
+        <h3 class="center-align">Log In</h3>
+      <form>
+        <div class= "input-field">
+            <input type="email" id ="email" placeholder="Please enter username to log in" required>  
+            <label for="email">Email</label>
+        </div>
+          <div class= "input-field">
+            <input type="password" id ="password" placeholder="Please enter your passwword to log in" required>  
+            <label for="password">Password</label>
+        </div>
+    </form>
+            <div class="modal-footer">
+            Forgotten Password? <a href="#!" class="btn-flat">Reset Password</a>
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Log In</a>
+    </div>
+  </div>
+        </div>
         <header>
             <h1 class="center-align">BOXFILE</h1>
         </header>
@@ -100,18 +134,19 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class=" black-text material-icons">menu</i></a>
       <ul class=" right hide-on-med-and-down">
         <li><a class ="black-text" href="sass.html">Home</a></li>
-        <li><a class ="black-text" href="badges.html">Log In</a></li>
-        <li><a class ="black-text" href="collapsible.html">Sign Up</a></li>
+        <li><a class="waves-effect waves-light black-text modal-trigger" href="#modal1">Log In</a></li>
+        <li><a class ="black-text" href="#myform">Sign Up</a></li>
         <li><a class ="black-text" href="mobile.html">About Us</a></li>
       </ul>
       <ul class=" blue side-nav" id="mobile-demo">
         <li><a class ="black-text" href="sass.html">Home</a></li>
-        <li><a class ="black-text" href="badges.html">Log In</a></li>
+        <li><a class="waves-effect blue waves-light  modal-trigger" href="#modal1">Log In</a></li>
         <li><a class ="black-text" href="collapsible.html">Sign Up</a></li>
         <li><a class ="black-text" href="mobile.html">About Us</a></li>
       </ul>
     </div>
-  </nav><div class =" clearfix " id ="boxinfo">
+  </nav>
+        <div class =" clearfix " id ="boxinfo">
         <article>
             <h2 class ="black-text center-align">Why Boxfile?
             </h2>
@@ -195,23 +230,23 @@
             </article>
         </div>
         <div id ="price" class="container">
-            <h3 class="center-align bold">Pricing</h3>
-            <div class="row">
-                <div class="col s12 offset-s4 offset-l5 offset-m5">
+            <h3 class="center-align bold">PRICING</h3>
+            <div id class="row">
+                <div class="col icons s12 offset-s4 offset-l5 offset-m5">
             <p class ="priceprint"><i class="large material-icons"> description</i></p>
                 </div>
                 </div>
             <h4 class="thin center-align"> Per page printing cost #80</h4>
             <div class="row">
-                <div class="col s12 offset-s4 offset-l5 
+                <div class="col icons s12 offset-s4 offset-l5 
                 offset-m5">
             <p id="photocopy" class="priceprint"><i class="large material-icons "> content_copy</i></p>
                 </div>
             </div>
             <h3 class="center-align thin">Make photo copies for as low as #4</h3>
             <div class="row">
-                <div class="col s12 offset-s4 offset-l5 offset-m5">
-            <p id="passport" class ="priceprint"><i class="large material-icons"> camera_front</i></p>
+                <div class="icons col s12 offset-s4 offset-l5 offset-m5">
+            <p  id="passport" class ="priceprint"><i class="large material-icons"> camera_front</i></p>
                 </div>
             </div>
             <h3 class="center-align thin">print out passports for #20 per passport</h3>
@@ -249,12 +284,17 @@
             <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18199569_1267581796682901_8890973719352233322_n.jpg?oh=4ca7717cd01157aeb399d17f58434b8b&oe=5AE90A8F"/></div>
     </div>
   </div>
-            <form >
+            <form id ="myform" class="section scrollspy" >
                 <legend class="center-align"><h3 class="thin">Get productive with Boxfile</h3></legend>
                 <div class="input-field">
                      <i class="material-icons prefix">account_circle</i>
                 <input id ="name" type="text" placehoder="Enter Name" required>
                 <label for="name">Name</label>
+                </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">phone</i>
+                    <input id ="phone" type="tel" placehoder="Enter your telephone number" required>
+                    <label for="phone">Number</label>
                 </div>
                 <div class="input-field">
                     <input id ="name" type="email" placehoder="Enter email address" required>
@@ -263,11 +303,6 @@
                 <div class="input-field">
                     <input id ="address" type="text" placehoder="Enter name of your school" required>
                     <label for="address"> School</label>
-                </div>
-                <div class="input-field">
-                    <i class="material-icons prefix">phone</i>
-                    <input id ="phone" type="tel" placehoder="Enter your telephone number" required>
-                    <label for="phone">Number</label>
                 </div>
                 <div class="input-field">
                     <input id ="password" type="password" placehoder="Enter your password number" required>
@@ -296,6 +331,10 @@
                     <div class="col offset-s5 offset-l5 offset-m5">
                     <button class="blue btn">Sign up</button> 
                     </div>
+                    <div class="col offset-s5 offset-l5 offset-m5">
+                        <strong>Already Registered?</strong>
+                    <a  href="#modal1" class="modal-trigger btn-flat">Log in</a> 
+                    </div>
                 </div>
             </form>
         </div>
@@ -310,12 +349,28 @@
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
                 </ul>
               </div>
+                <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Location</h5>
+                We are are located at Herbert Marcauly Yaba Lagos
+              </div>
+                <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Contact Us</h5>
+                    <ul>
+                        <li>Email:Worisj@gmail.com</li>
+                        <li>Phone Number: 09076621816</li>
+                    </ul>
+                    
+              </div>
             </div>
-          <div class=" center-align footer-copyright">
+          
+                 <h6 class="center-align">Connect with us on social media</h6>
+                <ul>
+                <li class="center-align"><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li class="center-align"><a class=" grey-text text-lighten-3" href="#!">Twitter</a></li>
+                 </ul>
+                 <div class=" center-align footer-copyright">
             © Copyright Boxfile
           </div>
                  <p class="center-align">All right reserved</p>
