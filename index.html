@@ -5,6 +5,7 @@
             Boxfile    
         </title>
         <meta charset="utf-8">
+        <meta name ="viewport" content = "width= device-width, initial-scale = 1.0">
         <link rel = "stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">        <link rel="stylesheet" href ="css/animate%20.css">
         <link rel="stylesheet" href="css/main.css">
@@ -28,7 +29,7 @@
             margin-top:60px;
             width:100%;
         }
-        #priceprint{
+        .priceprint{
             border:2px solid black;
             border-radius: 60%;
             padding: 2px;
@@ -38,7 +39,6 @@
             background: linear-gradient(135deg, orange, orange 60%, cyan)
         }
         button.btn{
-            width:100%;
             margin:0px auto;
         }
         #more{
@@ -52,24 +52,36 @@
     <script>
         
         $(document).ready(function(){
+            $('select').material_select();
+            $(".button-collapse").sideNav();
             var options =[{
-                selector:"#priceprint", offset:100, callback:function(el){
-                Materialize.showStaggeredList($(el));
-                }
-            }];
+                selector:".priceprint", offset:200, callback:function(el){
+                $(el).each(function(){
+                    $(this).addClass("animated slideInLeft");
+});
+                    
+                }},
+                {selector:"#photocopy", offset:250, callback:function(el){
+                    $(el).addClass("animated slideInLeft");
+                }},
+                {selector:"#passport", offset:400, callback:function(el){
+                    $(el).addClass("animated slideInLeft");
+                }}
+        ];
             Materialize.scrollFire(options);
     $('.carousel.carousel-slider').carousel();
-    $("#showmore").on("click", function(){
+    $("#showmore").on("click", function(e){
+        $(e).css("display", "hidden")
         $("#more").css("display", "block").slideDown("slow","linear",function(){
         $(".articles").each(function(index){
             $(this).css("visibility", "visible");
             switch(index){
                 case 1:
-                    $(this).addClass("animated fadeIn");
+                    $(this).addClass("animated slideInUp");
                 case 2:
-                    $(this).addClass("animated fadeIn");
+                    $(this).addClass("animated slideInLeft");
                 case 3:
-                    $(this).addClass("animated fadeIn");
+                    $(this).addClass("animated slideInDown");
                 case 4:
                     $(this).addClass("animated fadeIn");
             }
@@ -82,24 +94,33 @@
         <header>
             <h1 class="center-align">BOXFILE</h1>
         </header>
-        <div class =" clearfix " id ="boxinfo">
+        <nav>
+    <div class=" white nav-wrapper">
+      <a href="#!" class=" black-text brand-logo"><img width=70px src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/uh59Wh0/24-hour-round-the-clock-cartoon-illustration-hand-drawn-animation-transparent_v1xiptss__F0004.png" ></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class=" black-text material-icons">menu</i></a>
+      <ul class=" right hide-on-med-and-down">
+        <li><a class ="black-text" href="sass.html">Home</a></li>
+        <li><a class ="black-text" href="badges.html">Log In</a></li>
+        <li><a class ="black-text" href="collapsible.html">Sign Up</a></li>
+        <li><a class ="black-text" href="mobile.html">About Us</a></li>
+      </ul>
+      <ul class=" blue side-nav" id="mobile-demo">
+        <li><a class ="black-text" href="sass.html">Home</a></li>
+        <li><a class ="black-text" href="badges.html">Log In</a></li>
+        <li><a class ="black-text" href="collapsible.html">Sign Up</a></li>
+        <li><a class ="black-text" href="mobile.html">About Us</a></li>
+      </ul>
+    </div>
+  </nav><div class =" clearfix " id ="boxinfo">
         <article>
             <h2 class ="black-text center-align">Why Boxfile?
             </h2>
-            <div class="row">
-            <div class="col s12 push-l6 push-m6 l6 m6">
-                <h3 class="center-align black-text animated bounceIn">Boxfile Goes With You</h3>
+            <h3 class="center-align black-text animated bounceIn">Boxfile Goes With You</h3>
                 <h4 class="animated white-text slideInRight">
                 Boxfile is a file management system that safes keep your university documents Assignments, Handouts, Courseforms for you online and delivers the printout to you when you need them. With boxfile all your documents are synchronized accross all devices, so whether you are in school with your smart phone, or at home with your desktop or laptop computer, boxfile gives you accessibility to all files at all times with any device.
                 </h4>
-                </div>
-                <div class='col s12 pull-l6 pull-m6 l6 m6'>
-            <p id ="img">
-                <img class="animated fadeIn responsive-img" src="https://dgyqr055mfays.cloudfront.net/site/images/features/file-sharing.png"/> 
-            </p>
-                </div>
-            </div>
-            <button class="btn btn-large white-text center-align black lighten-3"><h5>GET STARTED</h5></button>
+            <img class="animated fadeIn responsive-img" src="https://dgyqr055mfays.cloudfront.net/site/images/features/file-sharing.png"/>
+            <button class="btn blue btn-large white-text center-align black lighten-3"><h5>GET STARTED</h5></button>
             <div class="row">
                 <div class="col offset-s6 l6 offset-l6"></div>
                 <div class ="col offset-s6 l6 offset-l6">
@@ -110,26 +131,26 @@
             </div>
             <section id ="more">
             <div class="row">
-                <div class="col articles s12 m6 l6">
+            <div class="col articles s12 m12 l4">
         <article id ="collaborate">
           <div  class="card horizontal">
       <div class="card-image">
-        <img src="http://media.whattheythink.com.s3.amazonaws.com/images/2016-04-peer-collaboration-optimization-print-software-2.jpg">
+        <img width="100%" src="http://media.whattheythink.com.s3.amazonaws.com/images/2016-04-peer-collaboration-optimization-print-software-2.jpg">
       </div>
       <div class="card-stacked">
         <div class="card-content">
             <h4>Boxfile makes collaboration with group members, Coursemates an easy go
             file changes to group work is immediately updated and synchronized in real time to group members</h4>
-        </div>
-      </div>
-    </div> 
+        </div> 
+              </div>
+            </div>
             </article>
-                </div>
-            <div  class="col articles s12 m6 l6">
+            </div>
+            <div  class="col articles s12 m12 l4">
         <article id ="collaborate">
             <div class="card horizontal">
       <div class="card-image">
-        <img src="https://assets3.thrillist.com/v1/image/1651586/size/tmg-article_default_mobile.jpg">
+        <img width="100%" src="https://assets3.thrillist.com/v1/image/1651586/size/tmg-article_default_mobile.jpg">
       </div>
       <div class="card-stacked">
         <div class="card-content">
@@ -177,20 +198,20 @@
             <h3 class="center-align bold">Pricing</h3>
             <div class="row">
                 <div class="col s12 offset-s4 offset-l5 offset-m5">
-            <p id ="priceprint"><i class="large material-icons"> description</i></p>
+            <p class ="priceprint"><i class="large material-icons"> description</i></p>
                 </div>
                 </div>
             <h4 class="thin center-align"> Per page printing cost #80</h4>
             <div class="row">
                 <div class="col s12 offset-s4 offset-l5 
                 offset-m5">
-            <p id ="priceprint"><i class="large material-icons "> content_copy</i></p>
+            <p id="photocopy" class="priceprint"><i class="large material-icons "> content_copy</i></p>
                 </div>
             </div>
             <h3 class="center-align thin">Make photo copies for as low as #4</h3>
             <div class="row">
                 <div class="col s12 offset-s4 offset-l5 offset-m5">
-            <p id ="priceprint"><i class="large material-icons"> camera_front</i></p>
+            <p id="passport" class ="priceprint"><i class="large material-icons"> camera_front</i></p>
                 </div>
             </div>
             <h3 class="center-align thin">print out passports for #20 per passport</h3>
@@ -200,34 +221,104 @@
     </div>
     <div class="carousel-item red white-text" href="#one!">
       <h2>Ope Obasanya</h2>
-        <p><h4>- Federal University Of Technology Akure</h4>
-        <h4 class="black-text"><blockquote class="yellow">" Boxfile totally rocks, i've had no problem typing in an assignments, getting it delivered on time and submitting it in class "</blockquote></h4>
+        <h4>- Federal University Of Technology Akure</h4>
+        <h4 class=" black-text"><blockquote class="cyan">" Boxfile totally rocks, i've had no problem typing in an assignments, getting it delivered on time and submitting it in class "</blockquote></h4>
         <div>
-            <img class="circle" width="50%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-1/20637856_1992808880952028_3888498554017195024_n.jpg?oh=65b8e4b0b10e49ea8c936ff64efef1aa&oe=5AFEBBFF"/></div>
+            <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-1/20637856_1992808880952028_3888498554017195024_n.jpg?oh=65b8e4b0b10e49ea8c936ff64efef1aa&oe=5AFEBBFF"/></div>
     </div>
     <div class="carousel-item amber white-text" href="#two!">
       <h2>Tommisin Oyeleye</h2>
-        <p><h4>- Federal University Of Technology Akure</h4>
+        <h4>- Federal University Of Technology Akure</h4>
         <h4 class="black-text"><blockquote class="yellow">" A ton of workload have been taking off my shoulders as the classrep, now i can just share a link of a handout from the lecturer and everyone in the department gets a photocopy "</blockquote></h4>
         <div>
-            <img class="circle" width="50%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/23915537_723800184478855_3244889219429015351_n.jpg?oh=e73114634d0ca334aa393d5573fae189&oe=5AD8C9FC"/></div>
+            <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/23915537_723800184478855_3244889219429015351_n.jpg?oh=e73114634d0ca334aa393d5573fae189&oe=5AD8C9FC"/></div>
     </div>
                 
     <div class="carousel-item green white-text" href="#three!">
       <h2>Goodness</h2>
-        <p><h4>- Federal University Of Technology Akure</h4>
+        <h4>- Federal University Of Technology Akure</h4>
         <h4 class="black-text"><blockquote class="yellow">"I can upload a passport and have it attached to my courseforms and documents. Just Wow!! Boxfile rocks!!"</blockquote></h4>
         <div>
-            <img class="circle" width="50%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/21231693_654747748247274_7583070797671176494_n.jpg?oh=a01402f8a628e05c40ccfb2aa1a7e52b&oe=5ADEA0A5"/></div>
+            <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/21231693_654747748247274_7583070797671176494_n.jpg?oh=a01402f8a628e05c40ccfb2aa1a7e52b&oe=5ADEA0A5"/></div>
     </div>
     <div class="carousel-item blue white-text" href="#four!">
       <h2>Goodness</h2>
-        <p><h4>- Federal University Of Technology Akure</h4>
-        <h4 class="black-text"><blockquote class="yellow">"We dont copy ourselves on group work, we rather collaborate on boxfile"</blockquote></h4>
+        <h4>- Federal University Of Technology Akure</h4>
+        <h4 class="black-text"><blockquote class="yellow">"We dont copy ourselves on group work, we rather collaborate on Boxfile"</blockquote></h4>
         <div>
-            <img class="circle" width="50%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18199569_1267581796682901_8890973719352233322_n.jpg?oh=4ca7717cd01157aeb399d17f58434b8b&oe=5AE90A8F"/></div>
+            <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18199569_1267581796682901_8890973719352233322_n.jpg?oh=4ca7717cd01157aeb399d17f58434b8b&oe=5AE90A8F"/></div>
     </div>
   </div>
-</div>
+            <form >
+                <legend class="center-align"><h3 class="thin">Get productive with Boxfile</h3></legend>
+                <div class="input-field">
+                     <i class="material-icons prefix">account_circle</i>
+                <input id ="name" type="text" placehoder="Enter Name" required>
+                <label for="name">Name</label>
+                </div>
+                <div class="input-field">
+                    <input id ="name" type="email" placehoder="Enter email address" required>
+                    <label for="name">Email</label>
+                </div>
+                <div class="input-field">
+                    <input id ="address" type="text" placehoder="Enter name of your school" required>
+                    <label for="address"> School</label>
+                </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">phone</i>
+                    <input id ="phone" type="tel" placehoder="Enter your telephone number" required>
+                    <label for="phone">Number</label>
+                </div>
+                <div class="input-field">
+                    <input id ="password" type="password" placehoder="Enter your password number" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="input-field col s12">
+    <select>
+      <option value="" disabled selected>Choose your Level</option>
+      <option value="100">100l</option>
+      <option value="200">200l</option>
+      <option value="300">300l</option>
+        <option value="400">400l</option>
+        <option value="500">500l</option>
+    </select>
+    <label>Choose institutional level</label>
+  </div>
+                 <p>
+      <input class="with-gap" name="gender" type="radio" id="male" />
+      <label for="male">Male</label>
+    </p>
+                 <p>
+      <input class="with-gap" name="gender" type="radio" id="female" />
+      <label for="female">Female</label>
+    </p>
+                <div class="row">
+                    <div class="col offset-s5 offset-l5 offset-m5">
+                    <button class="blue btn">Sign up</button> 
+                    </div>
+                </div>
+            </form>
+        </div>
+             <footer class=" blue page-footer">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Chat printing</h5>
+                <p class="grey-text text-lighten-4">With chat printing, your documents can be printed and delivered to you even faster. Simply upload your document and address to our whatsapp chat line 09076621816 </p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Company</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                </ul>
+              </div>
+            </div>
+          <div class=" center-align footer-copyright">
+            © Copyright Boxfile
+          </div>
+                 <p class="center-align">All right reserved</p>
+        </footer>
     </body>
 </html>
