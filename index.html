@@ -6,9 +6,7 @@
         </title>
         <meta charset="utf-8">
         <link rel = "stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-        <link rel="stylesheet" href ="css/animate%20.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">        <link rel="stylesheet" href ="css/animate%20.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons", rel="stylesheet">
         <script src="scripts/main.js"></script>
@@ -19,6 +17,8 @@
                 crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
     </head>
     <style>
     h4{
@@ -27,6 +27,12 @@
         p#img{
             margin-top:60px;
             width:100%;
+        }
+        #priceprint{
+            border:2px solid black;
+            border-radius: 60%;
+            padding: 2px;
+            width:100px;
         }
         #boxinfo{
             background: linear-gradient(135deg, orange, orange 60%, cyan)
@@ -39,10 +45,37 @@
             background: #6495ed;
             display:none;
         }
+        .articles{
+            visibility:hidden;
+        }
     </style>
     <script>
+        
         $(document).ready(function(){
-    alert("working");
+            var options =[{
+                selector:"#priceprint", offset:100, callback:function(el){
+                Materialize.showStaggeredList($(el));
+                }
+            }];
+            Materialize.scrollFire(options);
+    $('.carousel.carousel-slider').carousel();
+    $("#showmore").on("click", function(){
+        $("#more").css("display", "block").slideDown("slow","linear",function(){
+        $(".articles").each(function(index){
+            $(this).css("visibility", "visible");
+            switch(index){
+                case 1:
+                    $(this).addClass("animated fadeIn");
+                case 2:
+                    $(this).addClass("animated fadeIn");
+                case 3:
+                    $(this).addClass("animated fadeIn");
+                case 4:
+                    $(this).addClass("animated fadeIn");
+            }
+});
+        });
+    });
 });
     </script>
     <body>
@@ -77,9 +110,9 @@
             </div>
             <section id ="more">
             <div class="row">
-                <div class="col s12 m4 l4">
+                <div class="col articles s12 m6 l6">
         <article id ="collaborate">
-          <div class="card horizontal">
+          <div  class="card horizontal">
       <div class="card-image">
         <img src="http://media.whattheythink.com.s3.amazonaws.com/images/2016-04-peer-collaboration-optimization-print-software-2.jpg">
       </div>
@@ -92,7 +125,7 @@
     </div> 
             </article>
                 </div>
-            <div class="col s12 m4 l4">
+            <div  class="col articles s12 m6 l6">
         <article id ="collaborate">
             <div class="card horizontal">
       <div class="card-image">
@@ -108,8 +141,8 @@
                 </div>
                 </div>
         <div class="row">
-            <div class="col s12 m4 l4">
-        <article id ="passport">
+            <div  class="col articles s12 m4 l4">
+        <article  id ="passport">
              <div class="card">
         <div class="card-image">
           <img src="https://thumbs.dreamstime.com/b/beautiful-young-woman-working-computer-cafe-drinking-coffee-typing-keyboard-close-up-72765494.jpg">
@@ -122,7 +155,7 @@
       </div>
         </article>
             </div>
-            <div class="col s12 m4 l4">
+            <div class="col articles s12 m4 l4">
             <article>
                  <div class="card horizontal">
       <div class="card-image">
@@ -140,6 +173,61 @@
         </section>
             </article>
         </div>
-        
+        <div id ="price" class="container">
+            <h3 class="center-align bold">Pricing</h3>
+            <div class="row">
+                <div class="col s12 offset-s4 offset-l5 offset-m5">
+            <p id ="priceprint"><i class="large material-icons"> description</i></p>
+                </div>
+                </div>
+            <h4 class="thin center-align"> Per page printing cost #80</h4>
+            <div class="row">
+                <div class="col s12 offset-s4 offset-l5 
+                offset-m5">
+            <p id ="priceprint"><i class="large material-icons "> content_copy</i></p>
+                </div>
+            </div>
+            <h3 class="center-align thin">Make photo copies for as low as #4</h3>
+            <div class="row">
+                <div class="col s12 offset-s4 offset-l5 offset-m5">
+            <p id ="priceprint"><i class="large material-icons"> camera_front</i></p>
+                </div>
+            </div>
+            <h3 class="center-align thin">print out passports for #20 per passport</h3>
+            <div class="carousel carousel-slider center" data-indicators="true">
+    <div class="carousel-fixed-item center">
+      <a class="btn waves-effect white black-text darken-text-2">Sign up for Boxfile</a>
+    </div>
+    <div class="carousel-item red white-text" href="#one!">
+      <h2>Ope Obasanya</h2>
+        <p><h4>- Federal University Of Technology Akure</h4>
+        <h4 class="black-text"><blockquote class="yellow">" Boxfile totally rocks, i've had no problem typing in an assignments, getting it delivered on time and submitting it in class "</blockquote></h4>
+        <div>
+            <img class="circle" width="50%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-1/20637856_1992808880952028_3888498554017195024_n.jpg?oh=65b8e4b0b10e49ea8c936ff64efef1aa&oe=5AFEBBFF"/></div>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <h2>Tommisin Oyeleye</h2>
+        <p><h4>- Federal University Of Technology Akure</h4>
+        <h4 class="black-text"><blockquote class="yellow">" A ton of workload have been taking off my shoulders as the classrep, now i can just share a link of a handout from the lecturer and everyone in the department gets a photocopy "</blockquote></h4>
+        <div>
+            <img class="circle" width="50%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/23915537_723800184478855_3244889219429015351_n.jpg?oh=e73114634d0ca334aa393d5573fae189&oe=5AD8C9FC"/></div>
+    </div>
+                
+    <div class="carousel-item green white-text" href="#three!">
+      <h2>Goodness</h2>
+        <p><h4>- Federal University Of Technology Akure</h4>
+        <h4 class="black-text"><blockquote class="yellow">"I can upload a passport and have it attached to my courseforms and documents. Just Wow!! Boxfile rocks!!"</blockquote></h4>
+        <div>
+            <img class="circle" width="50%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/21231693_654747748247274_7583070797671176494_n.jpg?oh=a01402f8a628e05c40ccfb2aa1a7e52b&oe=5ADEA0A5"/></div>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+      <h2>Goodness</h2>
+        <p><h4>- Federal University Of Technology Akure</h4>
+        <h4 class="black-text"><blockquote class="yellow">"We dont copy ourselves on group work, we rather collaborate on boxfile"</blockquote></h4>
+        <div>
+            <img class="circle" width="50%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18199569_1267581796682901_8890973719352233322_n.jpg?oh=4ca7717cd01157aeb399d17f58434b8b&oe=5AE90A8F"/></div>
+    </div>
+  </div>
+</div>
     </body>
 </html>
