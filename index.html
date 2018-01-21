@@ -65,6 +65,24 @@
     <script>
         
         $(document).ready(function(){
+            $("form").submit(e =>{
+                e.preventDefault();
+                var name = $("#name").val().trim();
+                var phone =$("#phone").val().trim();
+                var email= $("#email").val().trim();
+                var school = $("#school").val().trim();
+                var level = $("#level").val().trim();
+                var password =$("#password").val().trim();
+                $.ajax({
+                    url:"signup.php",
+                    type:"POST",
+                    data: {name:name},
+                    success: (data, success)=>{
+                        alert(data);
+                    }
+                })
+            })
+            /*Line 80 to 99 initializes materialize css components*/
             $('.scrollspy').scrollSpy();
             $('select').material_select();
             $(".button-collapse").sideNav();
@@ -85,6 +103,7 @@
         ];
             Materialize.scrollFire(options);
     $('.carousel.carousel-slider').carousel();
+    //Function to add animmation with animate.css classes
     $("#showmore").on("click", function(e){
         $(e).css("display", "hidden")
         $("#more").css("display", "block").slideDown("slow","linear",function(){
@@ -111,11 +130,11 @@
         <h3 class="center-align">Log In</h3>
       <form>
         <div class= "input-field">
-            <input type="email" id ="email" placeholder="Please enter username to log in" required>  
+            <input type="email" id ="signemail" placeholder="Please enter username to log in" required>  
             <label for="email">Email</label>
         </div>
           <div class= "input-field">
-            <input type="password" id ="password" placeholder="Please enter your passwword to log in" required>  
+            <input type="password" id ="signpassword" placeholder="Please enter your passwword to log in" required>  
             <label for="password">Password</label>
         </div>
     </form>
@@ -141,7 +160,7 @@
       <ul class=" blue side-nav" id="mobile-demo">
         <li><a class ="black-text" href="sass.html">Home</a></li>
         <li><a class="waves-effect blue waves-light  modal-trigger" href="#modal1">Log In</a></li>
-        <li><a class ="black-text" href="collapsible.html">Sign Up</a></li>
+        <li><a class ="black-text" href="#myform">Sign Up</a></li>
         <li><a class ="black-text" href="mobile.html">About Us</a></li>
       </ul>
     </div>
@@ -284,33 +303,33 @@
             <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18199569_1267581796682901_8890973719352233322_n.jpg?oh=4ca7717cd01157aeb399d17f58434b8b&oe=5AE90A8F"/></div>
     </div>
   </div>
-            <form id ="myform" class="section scrollspy" >
+            <form id ="myform" class="section scrollspy" method="post">
                 <legend class="center-align"><h3 class="thin">Get productive with Boxfile</h3></legend>
                 <div class="input-field">
                      <i class="material-icons prefix">account_circle</i>
-                <input id ="name" type="text" placehoder="Enter Name" required>
+                <input id ="name" name ="name" type="text" placehoder="Enter Name" required>
                 <label for="name">Name</label>
                 </div>
                 <div class="input-field">
                     <i class="material-icons prefix">phone</i>
-                    <input id ="phone" type="tel" placehoder="Enter your telephone number" required>
+                    <input id ="phone" name="phone" type="tel" placehoder="Enter your telephone number" required>
                     <label for="phone">Number</label>
                 </div>
                 <div class="input-field">
-                    <input id ="name" type="email" placehoder="Enter email address" required>
-                    <label for="name">Email</label>
+                    <input id ="email" name="email" type="email" placehoder="Enter email address" required>
+                    <label for="email">Email</label>
                 </div>
                 <div class="input-field">
-                    <input id ="address" type="text" placehoder="Enter name of your school" required>
-                    <label for="address"> School</label>
+                    <input id ="school" name ="school" type="text" placehoder="Enter name of your school" required>
+                    <label for="school"> School</label>
                 </div>
                 <div class="input-field">
-                    <input id ="password" type="password" placehoder="Enter your password number" required>
+                    <input id ="password" type="password" name ="password" placehoder="Enter your password number" required>
                     <label for="password">Password</label>
                 </div>
                 <div class="input-field col s12">
-    <select>
-      <option value="" disabled selected>Choose your Level</option>
+    <select id="level">
+      <option value=""  disabled selected>Choose your Level</option>
       <option value="100">100l</option>
       <option value="200">200l</option>
       <option value="300">300l</option>
@@ -320,16 +339,16 @@
     <label>Choose institutional level</label>
   </div>
                  <p>
-      <input class="with-gap" name="gender" type="radio" id="male" />
+      <input class="with-gap" name="gender[]" name="gender" type="radio" id="male" />
       <label for="male">Male</label>
     </p>
                  <p>
-      <input class="with-gap" name="gender" type="radio" id="female" />
+      <input class="with-gap" name="gender[]" type="radio" id="female" />
       <label for="female">Female</label>
     </p>
                 <div class="row">
                     <div class="col offset-s5 offset-l5 offset-m5">
-                    <button class="blue btn">Sign up</button> 
+                    <button id="signup" type="submit" class="blue btn">Sign up</button> 
                     </div>
                     <div class="col offset-s5 offset-l5 offset-m5">
                         <strong>Already Registered?</strong>
@@ -344,18 +363,18 @@
                 <h5 class="white-text">Chat printing</h5>
                 <p class="grey-text text-lighten-4">With chat printing, your documents can be printed and delivered to you even faster. Simply upload your document and address to our whatsapp chat line 09076621816 </p>
               </div>
-              <div class="col l4 offset-l2 s12">
+              <div class="col l4  s12">
                 <h5 class="white-text">Company</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
                 </ul>
               </div>
-                <div class="col l4 offset-l2 s12">
+                <div class="col l4  s12">
                 <h5 class="white-text">Location</h5>
                 We are are located at Herbert Marcauly Yaba Lagos
               </div>
-                <div class="col l4 offset-l2 s12">
+                <div class="col l4  s12">
                 <h5 class="white-text">Contact Us</h5>
                     <ul>
                         <li>Email:Worisj@gmail.com</li>
