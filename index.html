@@ -25,6 +25,9 @@
         #price{
             padding-top:50px;
         }
+        .active{
+            display: none;
+        }
         .icons{
             margin-top: 150px;
         }
@@ -73,12 +76,16 @@
                 var school = $("#school").val().trim();
                 var level = $("#level").val().trim();
                 var password =$("#password").val().trim();
+                $(".active").show();
                 $.ajax({
                     url:"signup.php",
                     type:"POST",
                     data: {name:name},
                     success: (data, success)=>{
                         alert(data);
+                    },
+                    complete: ()=>{
+                        $(".active").hide();
                     }
                 })
             })
@@ -87,6 +94,7 @@
             $('select').material_select();
             $(".button-collapse").sideNav();
             $('.modal').modal();
+            $('.slider').slider();
             var options =[{
                 selector:".priceprint", offset:200, callback:function(el){
                 $(el).each(function(){
@@ -102,7 +110,7 @@
                 }}
         ];
             Materialize.scrollFire(options);
-    $('.carousel.carousel-slider').carousel();
+    $('.carousel.carousel-slider').carousel({fullWidth:true});
     //Function to add animmation with animate.css classes
     $("#showmore").on("click", function(e){
         $(e).css("display", "hidden")
@@ -149,7 +157,7 @@
         </header>
         <nav>
     <div class=" white nav-wrapper">
-      <a href="#!" class=" black-text brand-logo"><img width=70px src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/uh59Wh0/24-hour-round-the-clock-cartoon-illustration-hand-drawn-animation-transparent_v1xiptss__F0004.png" ></a>
+      <a href="#!" class=" black-text brand-logo"><img width=50px src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAPNKybKrpJIws2B7XkM7L-KZSuXI22siIRHtZ0fJXurbRUBbb" ></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class=" black-text material-icons">menu</i></a>
       <ul class=" right hide-on-med-and-down">
         <li><a class ="black-text" href="sass.html">Home</a></li>
@@ -248,7 +256,8 @@
         </section>
             </article>
         </div>
-        <div id ="price" class="container">
+        <div  id ="price" class="container">
+            <div style = "background-image:url(//cdn03.boxcdn.net/sites/default/files/homepage/v2/images/simple/device-inner-1-1920-@1x.jpg); background-size: cover; background-repeat: no-repeat; background-position: 50% 100%;">
             <h3 class="center-align bold">PRICING</h3>
             <div id class="row">
                 <div class="col icons s12 offset-s4 offset-l5 offset-m5">
@@ -269,40 +278,41 @@
                 </div>
             </div>
             <h3 class="center-align thin">print out passports for #20 per passport</h3>
+            </div>
             <div class="carousel carousel-slider center" data-indicators="true">
     <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white black-text darken-text-2">Sign up for Boxfile</a>
+      <a class="btn waves-effect white grey-text darken-text-2">Sign up for Boxfile</a>
     </div>
     <div class="carousel-item red white-text" href="#one!">
-      <h2>Ope Obasanya</h2>
-        <h4>- Federal University Of Technology Akure</h4>
-        <h4 class=" black-text"><blockquote class="cyan">" Boxfile totally rocks, i've had no problem typing in an assignments, getting it delivered on time and submitting it in class "</blockquote></h4>
-        <div>
-            <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-1/20637856_1992808880952028_3888498554017195024_n.jpg?oh=65b8e4b0b10e49ea8c936ff64efef1aa&oe=5AFEBBFF"/></div>
+        <h2>Opeyemi Obasanya</h2>
+        <blockquote><h4>" Boxfile totally rocks, i've had no problem typing in an assignments, getting it delivered on time and submitting it in class "</h4></blockquote>
+    <div >
+    <img width="30%" class="circle" src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-1/20637856_1992808880952028_3888498554017195024_n.jpg?oh=65b8e4b0b10e49ea8c936ff64efef1aa&oe=5AFEBBFF"/>
     </div>
+                </div>
     <div class="carousel-item amber white-text" href="#two!">
-      <h2>Tommisin Oyeleye</h2>
-        <h4>- Federal University Of Technology Akure</h4>
-        <h4 class="black-text"><blockquote class="yellow">" A ton of workload have been taking off my shoulders as the classrep, now i can just share a link of a handout from the lecturer and everyone in the department gets a photocopy "</blockquote></h4>
+      <h2>Tomisin Olowoyeye</h2>
+        <blockquote><h4>"A ton of workload have been taking off my shoulders as the classrep, now i can just share a link of a handout from the lecturer and everyone in the department gets a photocopy "</h4></blockquote>
         <div>
-            <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/23915537_723800184478855_3244889219429015351_n.jpg?oh=e73114634d0ca334aa393d5573fae189&oe=5AD8C9FC"/></div>
+        <img width="30%" class="circle"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/23915537_723800184478855_3244889219429015351_n.jpg?oh=e73114634d0ca334aa393d5573fae189&oe=5AD8C9FC"/>
+        </div>
     </div>
-                
     <div class="carousel-item green white-text" href="#three!">
-      <h2>Goodness</h2>
-        <h4>- Federal University Of Technology Akure</h4>
-        <h4 class="black-text"><blockquote class="yellow">"I can upload a passport and have it attached to my courseforms and documents. Just Wow!! Boxfile rocks!!"</blockquote></h4>
-        <div>
-            <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/21231693_654747748247274_7583070797671176494_n.jpg?oh=a01402f8a628e05c40ccfb2aa1a7e52b&oe=5ADEA0A5"/></div>
+      <h2>Elsa</h2>
+        <blockquote><h4>I can upload a passport and have it attached to my courseforms and documents. Just Wow!! Boxfile rocks!!"</h4></blockquote>
+    <div>
+    <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/21231693_654747748247274_7583070797671176494_n.jpg?oh=a01402f8a628e05c40ccfb2aa1a7e52b&oe=5ADEA0A5"/>
+        </div>
     </div>
     <div class="carousel-item blue white-text" href="#four!">
-      <h2>Goodness</h2>
-        <h4>- Federal University Of Technology Akure</h4>
-        <h4 class="black-text"><blockquote class="yellow">"We dont copy ourselves on group work, we rather collaborate on Boxfile"</blockquote></h4>
+      <h2>Gbemisola Ogunbamiyo</h2>
+        <blockquote><h4>We dont copy ourselves on group work, we rather collaborate on Boxfile"</h4></blockquote>
         <div>
-            <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18199569_1267581796682901_8890973719352233322_n.jpg?oh=4ca7717cd01157aeb399d17f58434b8b&oe=5AE90A8F"/></div>
+        <img class="circle" width="30%"  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18199569_1267581796682901_8890973719352233322_n.jpg?oh=4ca7717cd01157aeb399d17f58434b8b&oe=5AE90A8F"/>
+        </div>
     </div>
   </div>
+      
             <form id ="myform" class="section scrollspy" method="post">
                 <legend class="center-align"><h3 class="thin">Get productive with Boxfile</h3></legend>
                 <div class="input-field">
@@ -346,7 +356,21 @@
       <input class="with-gap" name="gender[]" type="radio" id="female" />
       <label for="female">Female</label>
     </p>
+                
                 <div class="row">
+                    <div class="col offset-l5 offset-m5">
+                    <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+                    </div>
                     <div class="col offset-s5 offset-l5 offset-m5">
                     <button id="signup" type="submit" class="blue btn">Sign up</button> 
                     </div>
@@ -355,6 +379,7 @@
                     <a  href="#modal1" class="modal-trigger btn-flat">Log in</a> 
                     </div>
                 </div>
+                
             </form>
         </div>
              <footer class=" blue page-footer">
