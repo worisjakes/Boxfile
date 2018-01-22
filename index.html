@@ -70,7 +70,7 @@
         $(document).ready(function(){
             $("form").submit(e =>{
                 e.preventDefault();
-                var name = $("#name").val().trim();
+                var name= $("#name").val().trim();
                 var phone =$("#phone").val().trim();
                 var email= $("#email").val().trim();
                 var school = $("#school").val().trim();
@@ -78,19 +78,23 @@
                 var clicked = $("#clicked").val();
                 var gender= $("input[name=gender]:checked").val();
                 var password =$("#password").val().trim();
-                $(".active").show();
+                 $(".active").show();
                 $.ajax({
                     url:"signup.php",
                     type:"POST",
                     data: {name:name, phone:phone, email:email, school:school, level:level, password:password, gender:gender, clicked:clicked},
                     success: (data, success)=>{
-                        alert(data);
+                        if(data == "1i"){
+                            window.location.assign("filestore");
+                        }else{
+                            $("h4#error").html(data);
+                        }
                     },
                     complete: ()=>{
                         $(".active").hide();
                     }
                 })
-            })
+            });
             /*Line 80 to 99 initializes materialize css components*/
             $('.scrollspy').scrollSpy();
             $('select').material_select();
@@ -317,6 +321,7 @@
       
             <form id ="myform" class="section scrollspy" method="post">
                 <legend class="center-align"><h3 class="thin">Get productive with Boxfile</h3></legend>
+                <h4 id ="error"></h4>
                 <div class="input-field">
                      <i class="material-icons prefix">account_circle</i>
                 <input id ="name" name ="name" type="text" placehoder="Enter Name" required>
@@ -324,11 +329,11 @@
                 </div>
                 <div class="input-field">
                     <i class="material-icons prefix">phone</i>
-                    <input id ="phone" name="phone" type="text" placehoder="Enter your telephone number" required>
+                    <input id ="phone" title="Number must be 11" pattern="[0-9]{11}" name="phone" type="tel" placehoder="Enter your telephone number" required>
                     <label for="phone">Number</label>
                 </div>
                 <div class="input-field">
-                    <input id ="email" name="email" type="email" placehoder="Enter email address" required>
+                    <input id ="email" title ="Email must be of format example@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name="email" type="email" placehoder="Enter email address" required>
                     <label for="email">Email</label>
                 </div>
                 <div class="input-field">
@@ -336,7 +341,7 @@
                     <label for="school"> School</label>
                 </div>
                 <div class="input-field">
-                    <input id ="password" type="password" name ="password" placehoder="Enter your password number" required>
+                    <input id ="password" title="Passwords must be six or more characters"  pattern=".{6,}" type="password" name ="password" placehoder="Enter your password number" required>
                     <label for="password">Password</label>
                 </div>
                 <div class="input-field col s12">
