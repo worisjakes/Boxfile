@@ -75,12 +75,14 @@
                 var email= $("#email").val().trim();
                 var school = $("#school").val().trim();
                 var level = $("#level").val().trim();
+                var clicked = $("#clicked").val();
+                var gender= $("input[name=gender]:checked").val();
                 var password =$("#password").val().trim();
                 $(".active").show();
                 $.ajax({
                     url:"signup.php",
                     type:"POST",
-                    data: {name:name},
+                    data: {name:name, phone:phone, email:email, school:school, level:level, password:password, gender:gender, clicked:clicked},
                     success: (data, success)=>{
                         alert(data);
                     },
@@ -349,13 +351,14 @@
     <label>Choose institutional level</label>
   </div>
                  <p>
-      <input class="with-gap" name="gender[]" name="gender" type="radio" id="male" />
+      <input class="with-gap" name="gender" name="gender" type="radio" id="male" />
       <label for="male">Male</label>
     </p>
                  <p>
-      <input class="with-gap" name="gender[]" type="radio" id="female" />
+      <input class="with-gap" name="gender" type="radio" id="female" />
       <label for="female">Female</label>
     </p>
+    <input type="hidden" id="clicked" name="clicked" value ="true"/>
                 
                 <div class="row">
                     <div class="col offset-l5 offset-m5">
