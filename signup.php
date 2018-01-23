@@ -21,7 +21,6 @@ if(isset($_POST["clicked"])  && !empty($_POST["name"]) && !empty($_POST["phone"]
     $level= mysqli_real_escape_string($conn, $_POST["level"]);
     $password = strip_tags(trim(htmlspecialchars($password)));
     $password= mysqli_real_escape_string($conn, $_POST["password"]);
-    $password =md5($password);
     if(!filter_var($email, FILTER_VALIDATE_EMAIL)=== FALSE && $phoneNum < 11 && $password<=6){
         echo "Email or phone number incorrect or password incorrect";
     }else{
@@ -47,4 +46,5 @@ if(isset($_POST["clicked"])  && !empty($_POST["name"]) && !empty($_POST["phone"]
 }else{
  die("Connection failed:". mysqli_connect_error());
 }
+mysqli_close($conn);
 ?>i

@@ -68,7 +68,7 @@
     <script>
         
         $(document).ready(function(){
-            $("form").submit(e =>{
+            $("#myform").submit(e =>{
                 e.preventDefault();
                 var name= $("#name").val().trim();
                 var phone =$("#phone").val().trim();
@@ -85,7 +85,7 @@
                     data: {name:name, phone:phone, email:email, school:school, level:level, password:password, gender:gender, clicked:clicked},
                     success: (data, success)=>{
                         if(data == "1i"){
-                            window.location.assign("filestore");
+                            window.location.assign("myfiles.php");
                         }else{
                             $("h4#error").html(data);
                         }
@@ -94,6 +94,24 @@
                         $(".active").hide();
                     }
                 })
+            });
+            $("#loginform").submit(e=>{
+                e.preventDefault();
+                var email = $("#signemail").val();
+                var password = $("#signpassword").val();
+                $.ajax({
+                   url:"login.php",
+                    type:"POST",
+                    data:{email:email, password:password},
+                    success:(data,success)=>{
+                        if(data == "success"){
+                          alert(data);  window.location.assign("myfiles.php");
+                        }else{
+                            $("#error").html(data);
+                        }
+                    }
+                    
+                });
             });
             /*Line 80 to 99 initializes materialize css components*/
             $('.scrollspy').scrollSpy();
@@ -142,19 +160,19 @@
         <div id="modal1" class="modal">
     <div class="modal-content">
         <h3 class="center-align">Log In</h3>
-      <form>
+      <form id ="loginform">
         <div class= "input-field">
-            <input type="email" id ="signemail" placeholder="Please enter username to log in" required>  
+            <input  type="email" id ="signemail" placeholder="Please enter username to log in" required>  
             <label for="email">Email</label>
         </div>
           <div class= "input-field">
             <input type="password" id ="signpassword" placeholder="Please enter your passwword to log in" required>  
             <label for="password">Password</label>
         </div>
+          <button type="submit"    class="waves-effect waves-green btn-flat">Log In</button>
     </form>
             <div class="modal-footer">
             Forgotten Password? <a href="#!" class="btn-flat">Reset Password</a>
-                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Log In</a>
     </div>
   </div>
         </div>
@@ -263,8 +281,13 @@
             </article>
         </div>
         <div  id ="price" class="container">
-            <div style = "background-image:url(//cdn03.boxcdn.net/sites/default/files/homepage/v2/images/simple/device-inner-1-1920-@1x.jpg); background-size: cover; background-repeat: no-repeat; background-position: 50% 100%;">
-            <h3 class="center-align bold">PRICING</h3>
+            <div style = "background-image:url(https://i.pinimg.com/originals/24/60/ff/2460ffd2ddbc84136aa45282ed995239.jpg); background-size: cover; background-repeat: no-repeat; background-position: 50% 100%;">
+                <div class="row">
+                <div class="col s12 offset-s4 offset-l5 offset-m5 ">
+                <img class="responsive-img" width="40%" height="40px"; src="http://nexaweb.com/wp-content/uploads/2015/04/Dollarphotoclub_78120745.jpg"/>
+                </div>
+                </div>
+            
             <div id class="row">
                 <div class="col icons s12 offset-s4 offset-l5 offset-m5">
             <p class ="priceprint"><i class="large material-icons"> description</i></p>

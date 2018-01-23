@@ -1,0 +1,1238 @@
+[0122/010019.079:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0122/010020.335:ERROR:exception_snapshot_win.cc(87)] thread ID 19852 not found in process
+[0122/010020.600:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0122/010457.054:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6557f000 of 36 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.054:WARNING:pe_image_reader.cc(104)] could not read crashpad info from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_elf.dll
+[0122/010457.055:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77220000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.055:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\RPCRT4.dll
+[0122/010457.055:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77960000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.055:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\sechost.dll
+[0122/010457.055:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76a80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.055:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ADVAPI32.dll
+[0122/010457.056:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.056:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\PSAPI.DLL
+[0122/010457.056:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.056:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USER32.dll
+[0122/010457.056:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ec0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.056:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USP10.dll
+[0122/010457.056:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.056:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\LPK.dll
+[0122/010457.056:ERROR:process_reader_win.cc(242)] ReadMemory at 0x772d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.056:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\GDI32.dll
+[0122/010457.056:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77320000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.056:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHLWAPI.dll
+[0122/010457.056:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75cb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.057:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHELL32.dll
+[0122/010457.057:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6e3f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.057:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINMM.dll
+[0122/010457.057:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75840000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.057:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\profapi.dll
+[0122/010457.058:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74e70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.063:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USERENV.dll
+[0122/010457.063:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71850000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.063:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\webio.dll
+[0122/010457.063:ERROR:process_reader_win.cc(242)] ReadMemory at 0x718a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.063:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINHTTP.dll
+[0122/010457.063:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.063:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0122/010457.063:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77380000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.063:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSCTF.dll
+[0122/010457.063:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77980000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.063:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IMM32.DLL
+[0122/010457.063:ERROR:process_reader_win.cc(242)] ReadMemory at 0x775f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.063:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ole32.dll
+[0122/010457.064:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.064:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\OLEAUT32.dll
+[0122/010457.064:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.064:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NSI.dll
+[0122/010457.064:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.064:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WS2_32.dll
+[0122/010457.064:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.064:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSASN1.dll
+[0122/010457.064:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.064:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CRYPT32.dll
+[0122/010457.064:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.064:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINTRUST.dll
+[0122/010457.064:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74720000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.064:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\COMCTL32.dll
+[0122/010457.065:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778e0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.065:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\COMDLG32.dll
+[0122/010457.065:ERROR:process_reader_win.cc(242)] ReadMemory at 0x659a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.065:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\dbghelp.dll
+[0122/010457.065:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6d530000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.065:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINSPOOL.DRV
+[0122/010457.065:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.065:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINNSI.DLL
+[0122/010457.065:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.065:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IPHLPAPI.DLL
+[0122/010457.065:ERROR:process_reader_win.cc(242)] ReadMemory at 0x756f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.065:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\Secur32.dll
+[0122/010457.066:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75710000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.066:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SSPICLI.DLL
+[0122/010457.066:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758c0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.066:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\XmlLite.dll
+[0122/010457.066:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76b30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.066:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\iertutil.dll
+[0122/010457.066:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.066:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WININET.dll
+[0122/010457.066:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.066:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\urlmon.dll
+[0122/010457.066:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72430000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.066:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DWrite.dll
+[0122/010457.066:ERROR:process_reader_win.cc(242)] ReadMemory at 0xf940000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.066:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_child.dll
+[0122/010457.066:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.067:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswJsFlt.dll
+[0122/010457.067:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.067:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-runtime-l1-1-0.dll
+[0122/010457.067:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.067:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-localization-l1-2-0.dll
+[0122/010457.067:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.067:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-processthreads-l1-1-1.dll
+[0122/010457.067:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.067:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l1-2-0.dll
+[0122/010457.067:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.067:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-timezone-l1-1-0.dll
+[0122/010457.067:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.067:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l2-1-0.dll
+[0122/010457.067:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.067:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-synch-l1-2-0.dll
+[0122/010457.067:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.067:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\ucrtbase.DLL
+[0122/010457.068:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.068:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-string-l1-1-0.dll
+[0122/010457.068:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.068:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-heap-l1-1-0.dll
+[0122/010457.129:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.129:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-stdio-l1-1-0.dll
+[0122/010457.129:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.129:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-convert-l1-1-0.dll
+[0122/010457.129:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f90000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.129:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\VCRUNTIME140.dll
+[0122/010457.129:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71fb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.129:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnIS.dll
+[0122/010457.129:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.129:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-locale-l1-1-0.dll
+[0122/010457.129:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.129:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-math-l1-1-0.dll
+[0122/010457.129:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.129:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-multibyte-l1-1-0.dll
+[0122/010457.130:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.130:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-time-l1-1-0.dll
+[0122/010457.130:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.130:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-filesystem-l1-1-0.dll
+[0122/010457.130:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.130:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-environment-l1-1-0.dll
+[0122/010457.130:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71be0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.130:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-utility-l1-1-0.dll
+[0122/010457.130:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.130:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\MSVCP140.dll
+[0122/010457.130:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cc0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.130:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnOS.dll
+[0122/010457.130:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72010000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.130:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnBS.dll
+[0122/010457.130:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.130:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\netutils.dll
+[0122/010457.130:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75490000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.130:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\srvcli.dll
+[0122/010457.131:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.131:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\wkscli.dll
+[0122/010457.131:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.131:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NETAPI32.dll
+[0122/010457.131:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73ad0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.131:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SAMCLI.DLL
+[0122/010457.131:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.131:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WTSAPI32.dll
+[0122/010457.131:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71ba0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.131:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\module_lifetime.dll
+[0122/010457.131:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.131:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\log.dll
+[0122/010457.131:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.131:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DNSAPI.dll
+[0122/010457.131:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.131:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\commchannel.dll
+[0122/010457.131:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70260000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.132:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\JsonRpcServer.dll
+[0122/010457.132:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.132:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswIP.dll
+[0122/010457.132:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71590000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.132:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswEngLdr.dll
+[0122/010457.132:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fdd0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.132:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\AavmRpch.dll
+[0122/010457.132:ERROR:process_reader_win.cc(242)] ReadMemory at 0x719f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.132:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WSOCK32.dll
+[0122/010457.132:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71640000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.132:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libcrypto-1_1.dll
+[0122/010457.133:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.133:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libssl-1_1.dll
+[0122/010457.133:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.133:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CFGMGR32.dll
+[0122/010457.133:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.133:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DEVOBJ.dll
+[0122/010457.133:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77450000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.133:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SETUPAPI.dll
+[0122/010457.133:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71a00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.133:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashBase.dll
+[0122/010457.133:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fc60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.133:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswAux.dll
+[0122/010457.133:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fd40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.133:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashTask.dll
+[0122/010457.133:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fe30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.133:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\Aavm4h.dll
+[0122/010457.133:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75790000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.133:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\cryptbase.dll
+[0122/010457.789:ERROR:process_reader_win.cc(242)] ReadMemory at 0x1d5000 of 438272 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/010457.790:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed
+[0122/010457.792:ERROR:scoped_process_suspend.cc(39)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0122/015651.431:ERROR:scoped_process_suspend.cc(39)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0122/020555.426:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c21010 of 28 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.724:WARNING:pe_image_reader.cc(137)] could not read data directory from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-multibyte-l1-1-0.dll
+[0122/020555.724:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.724:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-time-l1-1-0.dll
+[0122/020555.724:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.724:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-filesystem-l1-1-0.dll
+[0122/020555.724:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.724:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-environment-l1-1-0.dll
+[0122/020555.725:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71be0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.725:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-utility-l1-1-0.dll
+[0122/020555.725:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.725:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\MSVCP140.dll
+[0122/020555.725:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cc0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.725:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnOS.dll
+[0122/020555.725:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72010000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.725:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnBS.dll
+[0122/020555.725:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.725:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\netutils.dll
+[0122/020555.778:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75490000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.779:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\srvcli.dll
+[0122/020555.779:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.779:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\wkscli.dll
+[0122/020555.779:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.779:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NETAPI32.dll
+[0122/020555.780:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73ad0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.780:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SAMCLI.DLL
+[0122/020555.781:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.781:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WTSAPI32.dll
+[0122/020555.781:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71ba0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.782:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\module_lifetime.dll
+[0122/020555.783:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.783:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\log.dll
+[0122/020555.783:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.783:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DNSAPI.dll
+[0122/020555.783:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.784:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\commchannel.dll
+[0122/020555.784:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70260000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.784:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\JsonRpcServer.dll
+[0122/020555.785:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.785:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswIP.dll
+[0122/020555.786:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71590000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.786:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswEngLdr.dll
+[0122/020555.787:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fdd0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.787:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\AavmRpch.dll
+[0122/020555.787:ERROR:process_reader_win.cc(242)] ReadMemory at 0x719f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.787:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WSOCK32.dll
+[0122/020555.787:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71640000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.787:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libcrypto-1_1.dll
+[0122/020555.787:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.787:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libssl-1_1.dll
+[0122/020555.787:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.788:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CFGMGR32.dll
+[0122/020555.788:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.788:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DEVOBJ.dll
+[0122/020555.788:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77450000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.788:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SETUPAPI.dll
+[0122/020555.788:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71a00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.788:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashBase.dll
+[0122/020555.788:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fc60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.788:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswAux.dll
+[0122/020555.788:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fd40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.789:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashTask.dll
+[0122/020555.789:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fe30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.789:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\Aavm4h.dll
+[0122/020555.789:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75790000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.789:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\cryptbase.dll
+[0122/020555.789:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77828144 of 4 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.789:ERROR:process_snapshot_win.cc(305)] failed to read target address
+[0122/020555.789:ERROR:process_reader_win.cc(242)] ReadMemory at 0xc40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.789:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\chrome.exe
+[0122/020555.790:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77750000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.790:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\ntdll.dll
+[0122/020555.790:ERROR:process_reader_win.cc(242)] ReadMemory at 0x60700000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.790:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswhookx.dll
+[0122/020555.790:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.790:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\KERNELBASE.dll
+[0122/020555.790:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ff0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.790:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\KERNEL32.dll
+[0122/020555.790:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6db70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.791:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\snxhk.dll
+[0122/020555.791:ERROR:process_reader_win.cc(242)] ReadMemory at 0x769a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.791:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\msvcrt.dll
+[0122/020555.791:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74d10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.791:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\VERSION.dll
+[0122/020555.791:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65510000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.791:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_elf.dll
+[0122/020555.791:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77220000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.791:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\RPCRT4.dll
+[0122/020555.791:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77960000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.791:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\sechost.dll
+[0122/020555.792:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76a80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.792:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ADVAPI32.dll
+[0122/020555.792:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.792:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\PSAPI.DLL
+[0122/020555.792:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.792:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USER32.dll
+[0122/020555.792:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ec0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.792:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USP10.dll
+[0122/020555.792:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.792:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\LPK.dll
+[0122/020555.793:ERROR:process_reader_win.cc(242)] ReadMemory at 0x772d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.793:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\GDI32.dll
+[0122/020555.793:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77320000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.793:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHLWAPI.dll
+[0122/020555.793:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75cb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.793:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHELL32.dll
+[0122/020555.793:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6e3f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.793:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINMM.dll
+[0122/020555.793:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75840000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.793:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\profapi.dll
+[0122/020555.793:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74e70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.794:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USERENV.dll
+[0122/020555.794:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71850000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.794:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\webio.dll
+[0122/020555.794:ERROR:process_reader_win.cc(242)] ReadMemory at 0x718a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.794:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINHTTP.dll
+[0122/020555.794:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.794:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0122/020555.794:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77380000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.794:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSCTF.dll
+[0122/020555.794:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77980000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.795:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IMM32.DLL
+[0122/020555.795:ERROR:process_reader_win.cc(242)] ReadMemory at 0x775f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.795:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ole32.dll
+[0122/020555.795:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.795:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\OLEAUT32.dll
+[0122/020555.795:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.795:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NSI.dll
+[0122/020555.795:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.796:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WS2_32.dll
+[0122/020555.796:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.796:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSASN1.dll
+[0122/020555.796:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.796:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CRYPT32.dll
+[0122/020555.796:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.796:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINTRUST.dll
+[0122/020555.796:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74720000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.796:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\COMCTL32.dll
+[0122/020555.796:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778e0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.796:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\COMDLG32.dll
+[0122/020555.797:ERROR:process_reader_win.cc(242)] ReadMemory at 0x659a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.797:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\dbghelp.dll
+[0122/020555.797:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6d530000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.797:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINSPOOL.DRV
+[0122/020555.797:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.797:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINNSI.DLL
+[0122/020555.797:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.797:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IPHLPAPI.DLL
+[0122/020555.797:ERROR:process_reader_win.cc(242)] ReadMemory at 0x756f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.797:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\Secur32.dll
+[0122/020555.798:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75710000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.798:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SSPICLI.DLL
+[0122/020555.798:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758c0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.798:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\XmlLite.dll
+[0122/020555.798:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76b30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.798:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\iertutil.dll
+[0122/020555.798:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.798:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WININET.dll
+[0122/020555.798:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.798:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\urlmon.dll
+[0122/020555.799:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72430000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.799:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DWrite.dll
+[0122/020555.799:ERROR:process_reader_win.cc(242)] ReadMemory at 0xda0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.799:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_child.dll
+[0122/020555.799:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.799:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswJsFlt.dll
+[0122/020555.799:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.799:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-runtime-l1-1-0.dll
+[0122/020555.799:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.799:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-localization-l1-2-0.dll
+[0122/020555.800:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.800:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-processthreads-l1-1-1.dll
+[0122/020555.800:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.800:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l1-2-0.dll
+[0122/020555.800:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.800:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-timezone-l1-1-0.dll
+[0122/020555.800:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.800:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l2-1-0.dll
+[0122/020555.800:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.800:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-synch-l1-2-0.dll
+[0122/020555.800:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.801:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\ucrtbase.DLL
+[0122/020555.801:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.801:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-string-l1-1-0.dll
+[0122/020555.801:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.801:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-heap-l1-1-0.dll
+[0122/020555.801:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.801:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-stdio-l1-1-0.dll
+[0122/020555.801:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.801:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-convert-l1-1-0.dll
+[0122/020555.801:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f90000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.802:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\VCRUNTIME140.dll
+[0122/020555.802:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71fb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.802:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnIS.dll
+[0122/020555.802:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.802:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-locale-l1-1-0.dll
+[0122/020555.802:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.802:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-math-l1-1-0.dll
+[0122/020555.802:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.802:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-multibyte-l1-1-0.dll
+[0122/020555.803:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.803:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-time-l1-1-0.dll
+[0122/020555.803:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.803:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-filesystem-l1-1-0.dll
+[0122/020555.803:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.803:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-environment-l1-1-0.dll
+[0122/020555.803:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71be0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.803:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-utility-l1-1-0.dll
+[0122/020555.803:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.803:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\MSVCP140.dll
+[0122/020555.804:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cc0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.804:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnOS.dll
+[0122/020555.804:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72010000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.804:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnBS.dll
+[0122/020555.804:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.804:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\netutils.dll
+[0122/020555.804:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75490000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.804:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\srvcli.dll
+[0122/020555.804:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.804:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\wkscli.dll
+[0122/020555.804:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.805:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NETAPI32.dll
+[0122/020555.805:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73ad0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.805:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SAMCLI.DLL
+[0122/020555.805:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.805:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WTSAPI32.dll
+[0122/020555.805:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71ba0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.805:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\module_lifetime.dll
+[0122/020555.805:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.806:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\log.dll
+[0122/020555.806:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.806:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DNSAPI.dll
+[0122/020555.806:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.806:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\commchannel.dll
+[0122/020555.806:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70260000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.806:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\JsonRpcServer.dll
+[0122/020555.806:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.806:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswIP.dll
+[0122/020555.807:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71590000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.807:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswEngLdr.dll
+[0122/020555.807:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fdd0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.807:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\AavmRpch.dll
+[0122/020555.807:ERROR:process_reader_win.cc(242)] ReadMemory at 0x719f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.807:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WSOCK32.dll
+[0122/020555.807:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71640000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.807:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libcrypto-1_1.dll
+[0122/020555.807:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.807:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libssl-1_1.dll
+[0122/020555.808:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.808:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CFGMGR32.dll
+[0122/020555.808:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.808:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DEVOBJ.dll
+[0122/020555.808:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77450000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.808:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SETUPAPI.dll
+[0122/020555.808:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71a00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.808:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashBase.dll
+[0122/020555.808:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fc60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.808:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswAux.dll
+[0122/020555.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fd40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.809:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashTask.dll
+[0122/020555.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fe30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.809:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\Aavm4h.dll
+[0122/020555.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75790000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020555.809:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\cryptbase.dll
+[0122/020555.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0xc40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.005:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\chrome.exe
+[0122/020556.151:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77750000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.152:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\ntdll.dll
+[0122/020556.152:ERROR:process_reader_win.cc(242)] ReadMemory at 0x60700000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.152:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswhookx.dll
+[0122/020556.152:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.152:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\KERNELBASE.dll
+[0122/020556.152:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ff0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.153:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\KERNEL32.dll
+[0122/020556.153:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6db70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.153:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\snxhk.dll
+[0122/020556.153:ERROR:process_reader_win.cc(242)] ReadMemory at 0x769a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.153:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\msvcrt.dll
+[0122/020556.153:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74d10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.153:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\VERSION.dll
+[0122/020556.153:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65510000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.154:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_elf.dll
+[0122/020556.154:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77220000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.154:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\RPCRT4.dll
+[0122/020556.154:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77960000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.154:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\sechost.dll
+[0122/020556.154:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76a80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.154:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ADVAPI32.dll
+[0122/020556.154:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.154:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\PSAPI.DLL
+[0122/020556.154:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.154:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USER32.dll
+[0122/020556.155:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ec0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.155:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USP10.dll
+[0122/020556.155:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.155:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\LPK.dll
+[0122/020556.155:ERROR:process_reader_win.cc(242)] ReadMemory at 0x772d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.155:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\GDI32.dll
+[0122/020556.155:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77320000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.155:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHLWAPI.dll
+[0122/020556.155:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75cb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.155:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHELL32.dll
+[0122/020556.155:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6e3f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.156:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINMM.dll
+[0122/020556.156:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75840000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.156:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\profapi.dll
+[0122/020556.156:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74e70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.156:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USERENV.dll
+[0122/020556.156:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71850000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.156:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\webio.dll
+[0122/020556.156:ERROR:process_reader_win.cc(242)] ReadMemory at 0x718a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.156:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINHTTP.dll
+[0122/020556.157:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.157:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0122/020556.157:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77380000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.157:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSCTF.dll
+[0122/020556.157:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77980000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.157:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IMM32.DLL
+[0122/020556.157:ERROR:process_reader_win.cc(242)] ReadMemory at 0x775f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.157:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ole32.dll
+[0122/020556.157:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.157:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\OLEAUT32.dll
+[0122/020556.157:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.158:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NSI.dll
+[0122/020556.158:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.158:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WS2_32.dll
+[0122/020556.158:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.158:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSASN1.dll
+[0122/020556.158:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.159:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CRYPT32.dll
+[0122/020556.159:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.159:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINTRUST.dll
+[0122/020556.159:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74720000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.159:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\COMCTL32.dll
+[0122/020556.159:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778e0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.159:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\COMDLG32.dll
+[0122/020556.159:ERROR:process_reader_win.cc(242)] ReadMemory at 0x659a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.159:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\dbghelp.dll
+[0122/020556.159:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6d530000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.160:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINSPOOL.DRV
+[0122/020556.160:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.160:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINNSI.DLL
+[0122/020556.160:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.160:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IPHLPAPI.DLL
+[0122/020556.160:ERROR:process_reader_win.cc(242)] ReadMemory at 0x756f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.160:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\Secur32.dll
+[0122/020556.160:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75710000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.160:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SSPICLI.DLL
+[0122/020556.160:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758c0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.160:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\XmlLite.dll
+[0122/020556.161:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76b30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.161:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\iertutil.dll
+[0122/020556.161:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.161:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WININET.dll
+[0122/020556.161:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.161:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\urlmon.dll
+[0122/020556.161:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72430000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.161:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DWrite.dll
+[0122/020556.161:ERROR:process_reader_win.cc(242)] ReadMemory at 0xda0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.161:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_child.dll
+[0122/020556.161:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.162:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswJsFlt.dll
+[0122/020556.162:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.162:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-runtime-l1-1-0.dll
+[0122/020556.162:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.162:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-localization-l1-2-0.dll
+[0122/020556.162:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.162:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-processthreads-l1-1-1.dll
+[0122/020556.162:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.162:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l1-2-0.dll
+[0122/020556.162:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.163:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-timezone-l1-1-0.dll
+[0122/020556.163:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.163:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l2-1-0.dll
+[0122/020556.163:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.163:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-synch-l1-2-0.dll
+[0122/020556.163:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.163:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\ucrtbase.DLL
+[0122/020556.163:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.163:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-string-l1-1-0.dll
+[0122/020556.163:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.163:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-heap-l1-1-0.dll
+[0122/020556.164:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.164:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-stdio-l1-1-0.dll
+[0122/020556.164:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.164:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-convert-l1-1-0.dll
+[0122/020556.164:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f90000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.164:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\VCRUNTIME140.dll
+[0122/020556.164:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71fb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.164:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnIS.dll
+[0122/020556.164:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.164:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-locale-l1-1-0.dll
+[0122/020556.165:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.165:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-math-l1-1-0.dll
+[0122/020556.165:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.165:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-multibyte-l1-1-0.dll
+[0122/020556.165:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.165:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-time-l1-1-0.dll
+[0122/020556.165:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.165:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-filesystem-l1-1-0.dll
+[0122/020556.165:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.165:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-environment-l1-1-0.dll
+[0122/020556.165:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71be0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.166:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-utility-l1-1-0.dll
+[0122/020556.166:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.166:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\MSVCP140.dll
+[0122/020556.166:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cc0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.166:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnOS.dll
+[0122/020556.166:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72010000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.166:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnBS.dll
+[0122/020556.166:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.166:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\netutils.dll
+[0122/020556.166:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75490000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.167:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\srvcli.dll
+[0122/020556.167:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.167:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\wkscli.dll
+[0122/020556.167:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.167:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NETAPI32.dll
+[0122/020556.167:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73ad0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.167:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SAMCLI.DLL
+[0122/020556.167:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.167:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WTSAPI32.dll
+[0122/020556.167:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71ba0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.167:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\module_lifetime.dll
+[0122/020556.168:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.168:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\log.dll
+[0122/020556.168:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.168:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DNSAPI.dll
+[0122/020556.168:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.168:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\commchannel.dll
+[0122/020556.168:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70260000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.168:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\JsonRpcServer.dll
+[0122/020556.168:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.168:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswIP.dll
+[0122/020556.168:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71590000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.169:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswEngLdr.dll
+[0122/020556.169:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fdd0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.169:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\AavmRpch.dll
+[0122/020556.169:ERROR:process_reader_win.cc(242)] ReadMemory at 0x719f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.169:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WSOCK32.dll
+[0122/020556.169:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71640000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.170:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libcrypto-1_1.dll
+[0122/020556.170:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.170:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libssl-1_1.dll
+[0122/020556.170:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.170:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CFGMGR32.dll
+[0122/020556.170:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.170:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DEVOBJ.dll
+[0122/020556.170:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77450000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.171:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SETUPAPI.dll
+[0122/020556.171:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71a00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.171:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashBase.dll
+[0122/020556.171:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fc60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.171:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswAux.dll
+[0122/020556.171:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fd40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.171:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashTask.dll
+[0122/020556.171:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fe30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.171:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\Aavm4h.dll
+[0122/020556.171:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75790000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.172:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\cryptbase.dll
+[0122/020556.845:ERROR:process_reader_win.cc(242)] ReadMemory at 0xc40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.845:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\chrome.exe
+[0122/020556.845:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77750000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.845:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\ntdll.dll
+[0122/020556.845:ERROR:process_reader_win.cc(242)] ReadMemory at 0x60700000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.846:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswhookx.dll
+[0122/020556.846:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.846:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\KERNELBASE.dll
+[0122/020556.846:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ff0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.846:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\KERNEL32.dll
+[0122/020556.846:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6db70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.846:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\snxhk.dll
+[0122/020556.846:ERROR:process_reader_win.cc(242)] ReadMemory at 0x769a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.846:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\msvcrt.dll
+[0122/020556.846:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74d10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.847:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\VERSION.dll
+[0122/020556.847:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65510000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.847:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_elf.dll
+[0122/020556.847:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77220000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.847:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\RPCRT4.dll
+[0122/020556.847:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77960000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.847:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\sechost.dll
+[0122/020556.847:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76a80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.847:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ADVAPI32.dll
+[0122/020556.848:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.848:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\PSAPI.DLL
+[0122/020556.848:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.848:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USER32.dll
+[0122/020556.848:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ec0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.848:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USP10.dll
+[0122/020556.848:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.848:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\LPK.dll
+[0122/020556.848:ERROR:process_reader_win.cc(242)] ReadMemory at 0x772d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.849:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\GDI32.dll
+[0122/020556.849:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77320000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.849:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHLWAPI.dll
+[0122/020556.849:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75cb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.849:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHELL32.dll
+[0122/020556.849:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6e3f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.849:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINMM.dll
+[0122/020556.849:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75840000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.849:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\profapi.dll
+[0122/020556.849:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74e70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.850:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USERENV.dll
+[0122/020556.850:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71850000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.850:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\webio.dll
+[0122/020556.850:ERROR:process_reader_win.cc(242)] ReadMemory at 0x718a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.850:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINHTTP.dll
+[0122/020556.850:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.850:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0122/020556.850:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77380000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.850:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSCTF.dll
+[0122/020556.850:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77980000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.851:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IMM32.DLL
+[0122/020556.851:ERROR:process_reader_win.cc(242)] ReadMemory at 0x775f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.851:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ole32.dll
+[0122/020556.851:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.851:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\OLEAUT32.dll
+[0122/020556.851:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.851:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NSI.dll
+[0122/020556.851:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.851:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WS2_32.dll
+[0122/020556.852:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.852:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSASN1.dll
+[0122/020556.852:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.852:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CRYPT32.dll
+[0122/020556.852:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.852:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINTRUST.dll
+[0122/020556.852:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74720000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.852:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\COMCTL32.dll
+[0122/020556.852:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778e0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.853:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\COMDLG32.dll
+[0122/020556.853:ERROR:process_reader_win.cc(242)] ReadMemory at 0x659a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.853:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\dbghelp.dll
+[0122/020556.853:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6d530000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.853:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINSPOOL.DRV
+[0122/020556.853:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.853:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINNSI.DLL
+[0122/020556.853:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.854:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IPHLPAPI.DLL
+[0122/020556.854:ERROR:process_reader_win.cc(242)] ReadMemory at 0x756f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.854:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\Secur32.dll
+[0122/020556.854:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75710000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.854:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SSPICLI.DLL
+[0122/020556.854:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758c0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.854:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\XmlLite.dll
+[0122/020556.854:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76b30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.854:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\iertutil.dll
+[0122/020556.854:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.855:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WININET.dll
+[0122/020556.855:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.855:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\urlmon.dll
+[0122/020556.855:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72430000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.855:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DWrite.dll
+[0122/020556.855:ERROR:process_reader_win.cc(242)] ReadMemory at 0xda0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.855:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_child.dll
+[0122/020556.855:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.855:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswJsFlt.dll
+[0122/020556.856:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.856:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-runtime-l1-1-0.dll
+[0122/020556.856:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.856:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-localization-l1-2-0.dll
+[0122/020556.856:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.856:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-processthreads-l1-1-1.dll
+[0122/020556.856:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.856:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l1-2-0.dll
+[0122/020556.856:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.857:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-timezone-l1-1-0.dll
+[0122/020556.857:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.857:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l2-1-0.dll
+[0122/020556.857:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.857:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-synch-l1-2-0.dll
+[0122/020556.857:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.857:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\ucrtbase.DLL
+[0122/020556.857:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.857:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-string-l1-1-0.dll
+[0122/020556.857:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.858:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-heap-l1-1-0.dll
+[0122/020556.858:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.858:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-stdio-l1-1-0.dll
+[0122/020556.858:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.858:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-convert-l1-1-0.dll
+[0122/020556.858:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f90000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.858:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\VCRUNTIME140.dll
+[0122/020556.859:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71fb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.859:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnIS.dll
+[0122/020556.859:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.859:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-locale-l1-1-0.dll
+[0122/020556.859:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.859:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-math-l1-1-0.dll
+[0122/020556.859:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.860:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-multibyte-l1-1-0.dll
+[0122/020556.860:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.860:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-time-l1-1-0.dll
+[0122/020556.860:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.860:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-filesystem-l1-1-0.dll
+[0122/020556.860:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.860:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-environment-l1-1-0.dll
+[0122/020556.860:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71be0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.860:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-utility-l1-1-0.dll
+[0122/020556.861:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.861:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\MSVCP140.dll
+[0122/020556.861:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cc0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.861:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnOS.dll
+[0122/020556.861:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72010000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.861:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnBS.dll
+[0122/020556.861:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.861:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\netutils.dll
+[0122/020556.861:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75490000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.862:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\srvcli.dll
+[0122/020556.862:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.862:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\wkscli.dll
+[0122/020556.862:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.862:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NETAPI32.dll
+[0122/020556.862:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73ad0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.862:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SAMCLI.DLL
+[0122/020556.862:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.863:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WTSAPI32.dll
+[0122/020556.863:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71ba0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.863:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\module_lifetime.dll
+[0122/020556.863:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.863:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\log.dll
+[0122/020556.863:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.863:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DNSAPI.dll
+[0122/020556.863:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.863:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\commchannel.dll
+[0122/020556.864:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70260000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.864:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\JsonRpcServer.dll
+[0122/020556.864:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.864:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswIP.dll
+[0122/020556.864:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71590000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.864:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswEngLdr.dll
+[0122/020556.864:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fdd0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.864:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\AavmRpch.dll
+[0122/020556.864:ERROR:process_reader_win.cc(242)] ReadMemory at 0x719f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.864:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WSOCK32.dll
+[0122/020556.865:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71640000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.865:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libcrypto-1_1.dll
+[0122/020556.917:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.917:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libssl-1_1.dll
+[0122/020556.917:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.917:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CFGMGR32.dll
+[0122/020556.917:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.917:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DEVOBJ.dll
+[0122/020556.917:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77450000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.917:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SETUPAPI.dll
+[0122/020556.918:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71a00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.918:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashBase.dll
+[0122/020556.918:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fc60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.918:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswAux.dll
+[0122/020556.918:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fd40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.918:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashTask.dll
+[0122/020556.918:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fe30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.918:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\Aavm4h.dll
+[0122/020556.918:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75790000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.919:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\cryptbase.dll
+[0122/020556.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0xc40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.919:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\chrome.exe
+[0122/020556.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77750000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.919:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\ntdll.dll
+[0122/020556.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x60700000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.919:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswhookx.dll
+[0122/020556.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.919:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\KERNELBASE.dll
+[0122/020556.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ff0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.920:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\KERNEL32.dll
+[0122/020556.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6db70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.920:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\snxhk.dll
+[0122/020556.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x769a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.920:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\msvcrt.dll
+[0122/020556.921:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74d10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.921:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\VERSION.dll
+[0122/020556.921:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65510000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.921:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_elf.dll
+[0122/020556.921:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77220000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.921:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\RPCRT4.dll
+[0122/020556.921:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77960000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.921:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\sechost.dll
+[0122/020556.921:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76a80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.922:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ADVAPI32.dll
+[0122/020556.922:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.922:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\PSAPI.DLL
+[0122/020556.922:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.922:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USER32.dll
+[0122/020556.922:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ec0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.922:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USP10.dll
+[0122/020556.922:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.922:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\LPK.dll
+[0122/020556.922:ERROR:process_reader_win.cc(242)] ReadMemory at 0x772d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.923:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\GDI32.dll
+[0122/020556.923:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77320000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.923:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHLWAPI.dll
+[0122/020556.923:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75cb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.923:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHELL32.dll
+[0122/020556.923:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6e3f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.923:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINMM.dll
+[0122/020556.923:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75840000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.923:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\profapi.dll
+[0122/020556.924:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74e70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.924:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USERENV.dll
+[0122/020556.924:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71850000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.924:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\webio.dll
+[0122/020556.924:ERROR:process_reader_win.cc(242)] ReadMemory at 0x718a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.924:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINHTTP.dll
+[0122/020556.924:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.924:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0122/020556.924:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77380000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.925:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSCTF.dll
+[0122/020556.925:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77980000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.925:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IMM32.DLL
+[0122/020556.925:ERROR:process_reader_win.cc(242)] ReadMemory at 0x775f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.925:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ole32.dll
+[0122/020556.925:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.925:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\OLEAUT32.dll
+[0122/020556.925:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.925:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NSI.dll
+[0122/020556.925:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.926:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WS2_32.dll
+[0122/020556.926:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.926:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSASN1.dll
+[0122/020556.926:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.926:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CRYPT32.dll
+[0122/020556.926:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.926:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINTRUST.dll
+[0122/020556.926:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74720000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.927:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\COMCTL32.dll
+[0122/020556.927:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778e0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.927:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\COMDLG32.dll
+[0122/020556.927:ERROR:process_reader_win.cc(242)] ReadMemory at 0x659a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.927:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\dbghelp.dll
+[0122/020556.927:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6d530000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.927:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINSPOOL.DRV
+[0122/020556.927:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.928:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINNSI.DLL
+[0122/020556.928:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.928:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IPHLPAPI.DLL
+[0122/020556.928:ERROR:process_reader_win.cc(242)] ReadMemory at 0x756f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.928:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\Secur32.dll
+[0122/020556.928:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75710000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.928:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SSPICLI.DLL
+[0122/020556.928:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758c0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.928:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\XmlLite.dll
+[0122/020556.928:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76b30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.929:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\iertutil.dll
+[0122/020556.929:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.929:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WININET.dll
+[0122/020556.929:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.929:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\urlmon.dll
+[0122/020556.929:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72430000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.929:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DWrite.dll
+[0122/020556.929:ERROR:process_reader_win.cc(242)] ReadMemory at 0xda0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.929:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_child.dll
+[0122/020556.929:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.930:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswJsFlt.dll
+[0122/020556.930:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.930:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-runtime-l1-1-0.dll
+[0122/020556.930:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.930:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-localization-l1-2-0.dll
+[0122/020556.930:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.930:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-processthreads-l1-1-1.dll
+[0122/020556.930:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.931:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l1-2-0.dll
+[0122/020556.931:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.931:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-timezone-l1-1-0.dll
+[0122/020556.931:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.931:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l2-1-0.dll
+[0122/020556.931:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.931:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-synch-l1-2-0.dll
+[0122/020556.931:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.931:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\ucrtbase.DLL
+[0122/020556.931:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.932:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-string-l1-1-0.dll
+[0122/020556.932:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.932:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-heap-l1-1-0.dll
+[0122/020556.932:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.932:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-stdio-l1-1-0.dll
+[0122/020556.932:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.932:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-convert-l1-1-0.dll
+[0122/020556.932:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f90000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.933:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\VCRUNTIME140.dll
+[0122/020556.933:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71fb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.933:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnIS.dll
+[0122/020556.933:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.933:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-locale-l1-1-0.dll
+[0122/020556.933:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.933:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-math-l1-1-0.dll
+[0122/020556.933:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.933:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-multibyte-l1-1-0.dll
+[0122/020556.933:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.934:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-time-l1-1-0.dll
+[0122/020556.934:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.934:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-filesystem-l1-1-0.dll
+[0122/020556.934:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.934:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-environment-l1-1-0.dll
+[0122/020556.934:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71be0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.934:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-utility-l1-1-0.dll
+[0122/020556.934:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.934:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\MSVCP140.dll
+[0122/020556.935:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cc0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.935:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnOS.dll
+[0122/020556.935:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72010000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.935:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnBS.dll
+[0122/020556.935:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.935:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\netutils.dll
+[0122/020556.935:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75490000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.935:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\srvcli.dll
+[0122/020556.935:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.935:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\wkscli.dll
+[0122/020556.936:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.936:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NETAPI32.dll
+[0122/020556.936:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73ad0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.936:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SAMCLI.DLL
+[0122/020556.936:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.936:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WTSAPI32.dll
+[0122/020556.936:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71ba0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.936:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\module_lifetime.dll
+[0122/020556.936:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.936:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\log.dll
+[0122/020556.937:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.937:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DNSAPI.dll
+[0122/020556.937:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.937:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\commchannel.dll
+[0122/020556.937:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70260000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.937:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\JsonRpcServer.dll
+[0122/020556.937:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.938:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswIP.dll
+[0122/020556.938:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71590000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.938:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswEngLdr.dll
+[0122/020556.938:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fdd0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.938:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\AavmRpch.dll
+[0122/020556.938:ERROR:process_reader_win.cc(242)] ReadMemory at 0x719f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.938:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WSOCK32.dll
+[0122/020556.938:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71640000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.938:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libcrypto-1_1.dll
+[0122/020556.938:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.939:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libssl-1_1.dll
+[0122/020556.939:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.939:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CFGMGR32.dll
+[0122/020556.939:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.939:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DEVOBJ.dll
+[0122/020556.939:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77450000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.939:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SETUPAPI.dll
+[0122/020556.939:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71a00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.939:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashBase.dll
+[0122/020556.939:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fc60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.940:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswAux.dll
+[0122/020556.940:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fd40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.940:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashTask.dll
+[0122/020556.940:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fe30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.940:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\Aavm4h.dll
+[0122/020556.940:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75790000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020556.940:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\cryptbase.dll
+[0122/020559.509:ERROR:process_reader_win.cc(242)] ReadMemory at 0xc40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.510:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\chrome.exe
+[0122/020559.510:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77750000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.510:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\ntdll.dll
+[0122/020559.510:ERROR:process_reader_win.cc(242)] ReadMemory at 0x60700000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.510:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswhookx.dll
+[0122/020559.510:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.510:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\KERNELBASE.dll
+[0122/020559.510:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ff0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.510:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\KERNEL32.dll
+[0122/020559.510:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6db70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.511:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\snxhk.dll
+[0122/020559.511:ERROR:process_reader_win.cc(242)] ReadMemory at 0x769a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.511:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\msvcrt.dll
+[0122/020559.511:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74d10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.511:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\VERSION.dll
+[0122/020559.511:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65510000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.511:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_elf.dll
+[0122/020559.511:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77220000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.511:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\RPCRT4.dll
+[0122/020559.511:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77960000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.511:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\SYSTEM32\sechost.dll
+[0122/020559.512:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76a80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.512:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ADVAPI32.dll
+[0122/020559.512:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.512:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\PSAPI.DLL
+[0122/020559.512:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.512:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USER32.dll
+[0122/020559.512:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ec0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.512:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USP10.dll
+[0122/020559.512:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.512:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\LPK.dll
+[0122/020559.513:ERROR:process_reader_win.cc(242)] ReadMemory at 0x772d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.513:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\GDI32.dll
+[0122/020559.513:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77320000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.513:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHLWAPI.dll
+[0122/020559.513:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75cb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.513:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SHELL32.dll
+[0122/020559.513:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6e3f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.513:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINMM.dll
+[0122/020559.513:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75840000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.513:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\profapi.dll
+[0122/020559.513:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74e70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.514:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\USERENV.dll
+[0122/020559.514:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71850000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.514:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\webio.dll
+[0122/020559.514:ERROR:process_reader_win.cc(242)] ReadMemory at 0x718a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.514:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINHTTP.dll
+[0122/020559.514:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70b80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.514:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0122/020559.514:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77380000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.514:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSCTF.dll
+[0122/020559.514:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77980000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.514:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IMM32.DLL
+[0122/020559.515:ERROR:process_reader_win.cc(242)] ReadMemory at 0x775f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.515:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\ole32.dll
+[0122/020559.515:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.515:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\OLEAUT32.dll
+[0122/020559.515:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.515:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NSI.dll
+[0122/020559.515:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.515:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WS2_32.dll
+[0122/020559.515:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.515:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\MSASN1.dll
+[0122/020559.516:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.516:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CRYPT32.dll
+[0122/020559.516:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75b50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.516:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINTRUST.dll
+[0122/020559.516:ERROR:process_reader_win.cc(242)] ReadMemory at 0x74720000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.516:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\COMCTL32.dll
+[0122/020559.516:ERROR:process_reader_win.cc(242)] ReadMemory at 0x778e0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.516:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\COMDLG32.dll
+[0122/020559.516:ERROR:process_reader_win.cc(242)] ReadMemory at 0x659a0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.516:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\dbghelp.dll
+[0122/020559.516:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6d530000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.517:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINSPOOL.DRV
+[0122/020559.517:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.517:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WINNSI.DLL
+[0122/020559.517:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73c80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.517:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\IPHLPAPI.DLL
+[0122/020559.517:ERROR:process_reader_win.cc(242)] ReadMemory at 0x756f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.517:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\Secur32.dll
+[0122/020559.517:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75710000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.517:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SSPICLI.DLL
+[0122/020559.517:ERROR:process_reader_win.cc(242)] ReadMemory at 0x758c0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.517:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\XmlLite.dll
+[0122/020559.518:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76b30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.518:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\iertutil.dll
+[0122/020559.518:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.518:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WININET.dll
+[0122/020559.518:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.518:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\urlmon.dll
+[0122/020559.518:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72430000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.518:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DWrite.dll
+[0122/020559.518:ERROR:process_reader_win.cc(242)] ReadMemory at 0xda0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.518:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\Google\Chrome\Application\63.0.3239.132\chrome_child.dll
+[0122/020559.519:ERROR:process_reader_win.cc(242)] ReadMemory at 0x65c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.519:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswJsFlt.dll
+[0122/020559.519:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.519:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-runtime-l1-1-0.dll
+[0122/020559.519:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.519:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-localization-l1-2-0.dll
+[0122/020559.519:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.519:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-processthreads-l1-1-1.dll
+[0122/020559.519:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.519:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l1-2-0.dll
+[0122/020559.519:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.520:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-timezone-l1-1-0.dll
+[0122/020559.520:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.520:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-file-l2-1-0.dll
+[0122/020559.520:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.520:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-core-synch-l1-2-0.dll
+[0122/020559.520:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71e60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.520:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\ucrtbase.DLL
+[0122/020559.520:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.521:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-string-l1-1-0.dll
+[0122/020559.521:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.521:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-heap-l1-1-0.dll
+[0122/020559.521:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71d00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.521:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-stdio-l1-1-0.dll
+[0122/020559.521:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.521:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-convert-l1-1-0.dll
+[0122/020559.521:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71f90000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.521:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\VCRUNTIME140.dll
+[0122/020559.522:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71fb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.522:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnIS.dll
+[0122/020559.522:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.522:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-locale-l1-1-0.dll
+[0122/020559.522:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.522:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-math-l1-1-0.dll
+[0122/020559.522:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.522:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-multibyte-l1-1-0.dll
+[0122/020559.522:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c10000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.522:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-time-l1-1-0.dll
+[0122/020559.523:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.523:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-filesystem-l1-1-0.dll
+[0122/020559.523:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bf0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.523:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-environment-l1-1-0.dll
+[0122/020559.523:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71be0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.523:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\api-ms-win-crt-utility-l1-1-0.dll
+[0122/020559.523:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71c50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.523:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc140.crt_fcc99ee6193ebbca_14.0.25325.0_none_a01bd4182e9569cc\MSVCP140.dll
+[0122/020559.523:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71cc0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.523:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnOS.dll
+[0122/020559.523:ERROR:process_reader_win.cc(242)] ReadMemory at 0x72010000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.524:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnBS.dll
+[0122/020559.524:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.524:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\netutils.dll
+[0122/020559.524:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75490000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.524:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\srvcli.dll
+[0122/020559.524:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.524:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\wkscli.dll
+[0122/020559.524:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73f80000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.524:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\NETAPI32.dll
+[0122/020559.524:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73ad0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.525:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SAMCLI.DLL
+[0122/020559.525:ERROR:process_reader_win.cc(242)] ReadMemory at 0x73d70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.525:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WTSAPI32.dll
+[0122/020559.525:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71ba0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.525:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\module_lifetime.dll
+[0122/020559.525:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71bb0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.525:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\log.dll
+[0122/020559.525:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75120000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.525:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DNSAPI.dll
+[0122/020559.525:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.525:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\commchannel.dll
+[0122/020559.526:ERROR:process_reader_win.cc(242)] ReadMemory at 0x70260000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.526:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\JsonRpcServer.dll
+[0122/020559.526:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.526:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswIP.dll
+[0122/020559.526:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71590000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.526:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswEngLdr.dll
+[0122/020559.526:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fdd0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.526:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\AavmRpch.dll
+[0122/020559.526:ERROR:process_reader_win.cc(242)] ReadMemory at 0x719f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.527:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\WSOCK32.dll
+[0122/020559.527:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71640000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.527:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libcrypto-1_1.dll
+[0122/020559.527:ERROR:process_reader_win.cc(242)] ReadMemory at 0x715d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.527:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\libssl-1_1.dll
+[0122/020559.527:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.527:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\CFGMGR32.dll
+[0122/020559.527:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75a50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.527:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\DEVOBJ.dll
+[0122/020559.527:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77450000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.528:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\SETUPAPI.dll
+[0122/020559.528:ERROR:process_reader_win.cc(242)] ReadMemory at 0x71a00000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.528:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashBase.dll
+[0122/020559.528:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fc60000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.528:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswAux.dll
+[0122/020559.528:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fd40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.528:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashTask.dll
+[0122/020559.528:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6fe30000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.528:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\Aavm4h.dll
+[0122/020559.528:ERROR:process_reader_win.cc(242)] ReadMemory at 0x75790000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.529:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Windows\system32\cryptbase.dll
+[0122/020559.869:ERROR:process_reader_win.cc(242)] ReadMemory at 0xf5000 of 503808 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0122/020559.870:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed
+[0122/020559.874:ERROR:scoped_process_suspend.cc(39)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
