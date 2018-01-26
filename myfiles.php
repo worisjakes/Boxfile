@@ -44,31 +44,64 @@
 </style>
 <script>
 	$(document).ready(()=>{
+	$("#passportbtn").click(e =>{
+			e.preventDefault();
+			var upload_btn = document.getElementById('passportbtn');
+			var passportfile = document.getElementById('passportfile');
+			var files = passportfile.files[0];
+			upload_btn.innerHTML ="Uploading";
+			var formdata = new FormData();
+			formdata.append("photopass", files, files.name);
+			if (!files.type.startsWith('image/')){
+				alert("Incorrect file type");
+			}else{
+			$.ajax(
+			{
+				url:"imgupload.php",
+				method:"POST",
+				data:formdata,
+				async:false,
+				processData:false,
+				success: (data, success)=>{
+					if(data = "1"){
+						window.location.reload();
+					}
+				},
+				cache:false,
+				contentType:false
+			})
+		}
+	});;
+		$('select').material_select();
 		$('#fileSelect').click((e)=>{
 			$(".container.form").show("slow");
 		});
 	});
 </script>
 <body>
-	<?php 
+<?php 
 	require("phpscripts/header.php");
-
-	 ?>
+?>
 	<div class="grey lighten-2 container">
 	<?php 
 	session_start();
 	$name = $_SESSION['name'];
+	$image = $_SESSION['image'];
 	require("phpscripts/pdoconn.php");
 	if(!isset($_SESSION['name'])){
 		header("Location:index.html");
 
 	}
-	$query ="SELECT id FROM users WHERE email  ='$name'";
+	$query ="SELECT * FROM users WHERE email  ='$name'";
+	$level ="";
+	$passport;
 	$query = $conn->query($query);
 	$query -> execute();
-	$result="";
+	$id="";
 	while($row = $query->fetch()){
-		$result = $row->id;
+		$id = $row->id;
+		$level = $row->level;
+		$passport = $row ->passportName;
 	}
 	?>
 		<h5 class="thin left-align">My passport</h5>
@@ -77,11 +110,14 @@
 		</section>
 		<div class="row">
 			<div class="col offset-l4 offset-s4">
-				<img style="border:1px solid black; border-radius: 50%" width="50%" class="responsive-img" src ="image/jakes.jpg"/>
+				<img style="border:1px solid black; border-radius: 50%" width="50%" class="responsive-img" src =passports/<?php echo $passport?> />
 			</div>
 			<div class="row">
 			<div class="col s12 offset-l4 offset-m4">
-			<a class="btn blue " href="updatepassport.php">Change Passport Photo</a>
+			<form enctype="multipart/form-data" id ="#imgform">
+			<input accepts ="image/*" type = "file" name="photopass" id="passportfile"/> 
+			<button id="passportbtn" type="submit" class="btn blue ">Change Passport Photo</button>
+			</form>
 			</div>
 			</div>
 		</div>
@@ -89,15 +125,24 @@
 		<section id="interested">
 			<p><h5><strong> Files you may be intrested in</strong></h5></p>
 			<div class="row">
+			<?php
+				$query = "SELECT * FROM files WHERE relatedLevel = '$level'";
+				$result = $conn -> query($query);
+				$result -> execute();
+				$row = $result->fetchAll();
+				foreach ($row as $k) {
+				echo '	
 				<div class="col s12 m3 l3">
 					<div class="row">
 						<div class="col s12 m4 l4 ">
 							<img class="responsive-img"  src="https://i.gadgets360cdn.com/large/How_to_Edit_PDF_Files_on_Word_Android_Web_iPhone_Desktop_1486559066639.jpg?output-quality=80"/>
 							</div>
 						<div class="col s12 m8 l8 ">
-							<p>FST 304</p>
-							<p>Type: Handout  </p>
-							<p>Created At: 22-01-2018</p>
+						<ul>
+							<li>'.$k->fileName.'</li>
+							<li>'.$k->relatedLevel.'</li>
+							<li>'.$k->relatedCourse.'</li>
+						</ul>
 						</div>
 						<p> Decscription: This file is just a file that tell us about chemistry and biology</p>
 					</div>
@@ -112,11 +157,11 @@
 							<button class="btn blue"><i class="material-icons">share</i></button>
 						</div>
 					</div>
+				</div>';}?>
 				</div>
-			</div>
 			<div class="row">
 				<div class ="col m4 offset-s5 offset-l5"> 
-					<button type id ="fileSelect" class=" pink btn">GO TO FILE STORE</button>
+					<button class=" pink btn">GO TO FILE STORE</button>
 					</div>	
 			 </div>
 		</section>
@@ -124,7 +169,7 @@
 		<p><h5 class="thin"><strong>My files</strong></h5></p>
 		<div class="row">
 			<?php
-				$query = "SELECT * FROM files WHERE user_id = '$result'";
+				$query = "SELECT * FROM files WHERE user_id = '$id'";
 				$result = $conn -> query($query);
 				$result -> execute();
 				$count = $result ->rowCount();
@@ -182,23 +227,23 @@
 							</div>
 							<div class="row">
 						<div class="col s4 m4 l4">
-							<button class="btn blue"><i class="material-icons">print</i></button>
+							<button class="btn red"><i class="material-icons">print</i></button>
 						</div>
 						<div class="col s4 m4 l4">
-							<button class="btn blue"><i class="material-icons">file_download</i></button>
+							<button class="btn yellow"><i class="material-icons">file_download</i></button>
 						</div>
 						<div class="col s4 m4 l4">
 							<button class="btn blue"><i class="material-icons">share</i></button>
 						</div>
 					</div>
-					</div>';?> <?php 
-				}
-			}
-			 ?>
+					</div>';
+					}
+					}
+					?>
 			 </div>
 			 <div class="row">
 				<div class ="col m4 offset-s5 offset-l5"> 
-					<button type id ="fileSelect" class="pink btn">Upload file<i class="material-icons">cloud_upload</i></button>
+					<button id ="fileSelect" class="pink btn">Upload file<i class="material-icons">cloud_upload</i></button>
 					</div>	
 			 </div>
 				<div style="display:none"  class="container form ">
@@ -242,6 +287,7 @@
 					        </div>
 					    </div>
 						</form>
+						</div>
 			 </section>
 		<section id ="Myprojects">
 			<p><h6><strong>My projects</strong></h6></p>

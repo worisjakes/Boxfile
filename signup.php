@@ -33,6 +33,7 @@ if(isset($_POST["clicked"])  && !empty($_POST["name"]) && !empty($_POST["phone"]
             $sql = "INSERT INTO users(email, phoneNum, password,name,level,school,gender) VALUES('$email','$phoneNum','$password','$name', '$level','$school','$gender')";
             if(mysqli_query($conn, $sql)){
                 $_SESSION["name"] = $email;
+                $_SESSION["level"] = $level;
                 echo "1";
 
             }else{

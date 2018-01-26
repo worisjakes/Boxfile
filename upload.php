@@ -29,18 +29,17 @@ define ("FILEREPOSITORY","uploads/");
 			$id;
 			while($row =$res->fetch()){
 				$id =$row ->id;
-				echo $id;
-				$field = array(
+			}
+			$field = array(
 					"id"=>(string)$id,
 					"filename"=>md5($filename)
 					);
 				$file_url = "http://boxfile.com/photocopy.php?". htmlspecialchars(http_build_query($field));
-			}
 		}catch(PDOException $e){
 			echo $e ->getMessage();
 		}
 			if($result==1){
-				$sql = "INSERT INTO files(user_id,fileName, fileSize, relatedCourse, relatedLevel, fileDescription,file_type,file_url) VALUES('$id','$name','$filesize', '$course','$level','$description','$filetype','$file_url')";
+				$sql = "INSERT INTO files(user_id,name, fileSize, relatedCourse, relatedLevel, fileDescription,file_type,file_url, fileName) VALUES('$id','$name','$filesize', '$course','$level','$description','$filetype','$file_url', '$filename')";
 				$result= $conn->query($sql);
 				if($result){
 				}
