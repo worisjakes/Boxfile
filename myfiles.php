@@ -79,19 +79,17 @@
 	});
 </script>
 <body>
-<?php 
+<?php session_start();
 	require("phpscripts/header.php");
+	require("phpscripts/Nav.php");
 ?>
 	<div class="grey lighten-2 container">
-	<?php 
-	session_start();
+	<?php
 	$name = $_SESSION['name'];
-	$image = $_SESSION['image'];
 	require("phpscripts/pdoconn.php");
 	if(!isset($_SESSION['name'])){
 		header("Location:index.html");
-
-	}
+}
 	$query ="SELECT * FROM users WHERE email  ='$name'";
 	$level ="";
 	$passport;
@@ -103,6 +101,7 @@
 		$level = $row->level;
 		$passport = $row ->passportName;
 	}
+	$_SESSION['id'] =$id;
 	?>
 		<h5 class="thin left-align">My passport</h5>
 		<section>
@@ -148,7 +147,7 @@
 					</div>
 					<div class="row">
 						<div class="col s4 m4 l4">
-							<button class="btn red"><i class="material-icons">print</i></button>
+							<a href =preview.php?q='.$k->fileName.'  class="btn red"><i class="material-icons">print</i></a>
 						</div>
 						<div class="col s4 m4 l4">
 							<button class="btn yellow"><i class="material-icons">file_download</i></button>
@@ -191,7 +190,7 @@
 							</div>
 							<div class="row">
 						<div class="col s4 m4 l4">
-							<button class="btn blue"><i class="material-icons">print</i></button>
+							<a href =preview.php?q='.$k->fileName.' class="btn blue"><i class="material-icons">print</i></a>
 						</div>
 						<div class="col s4 m4 l4">
 							<button class="btn blue"><i class="material-icons">file_download</i></button>
@@ -227,7 +226,7 @@
 							</div>
 							<div class="row">
 						<div class="col s4 m4 l4">
-							<button class="btn red"><i class="material-icons">print</i></button>
+							<a href =preview.php?q='.$k->fileName.' class="btn red"><i class="material-icons">print</i></a>
 						</div>
 						<div class="col s4 m4 l4">
 							<button class="btn yellow"><i class="material-icons">file_download</i></button>

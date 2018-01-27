@@ -20,8 +20,9 @@ define ("FILEREPOSITORY","uploads/");
 			$filesize = $_FILES['myFile']['size'];
 			$filetype = $_POST['filetype'];
 			$fileloc = $_FILES['myFile']['tmp_name'];
-			rename('uploads/'.$filename, 'uploads/'.str_replace(".pdf", (string)time(), $filename));
-			$result = move_uploaded_file($_FILES['myFile']['tmp_name'], FILEREPOSITORY.md5($filename));
+			$result = move_uploaded_file($_FILES['myFile']['tmp_name'], FILEREPOSITORY.$filename);
+			rename('uploads/'.$filename, 'uploads/'.md5(str_replace(".pdf", (string)time(), $filename)));	
+			$filename = md5(str_replace(".pdf", (string)time(), $filename));
 			try{
 			$query = "SELECT id from users WHERE email ='$email'";
 			$res = $conn -> query($query);
@@ -32,7 +33,7 @@ define ("FILEREPOSITORY","uploads/");
 			}
 			$field = array(
 					"id"=>(string)$id,
-					"filename"=>md5($filename)
+					"filename"=>$filename
 					);
 				$file_url = "http://boxfile.com/photocopy.php?". htmlspecialchars(http_build_query($field));
 		}catch(PDOException $e){

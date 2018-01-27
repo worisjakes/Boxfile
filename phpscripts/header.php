@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,6 +38,12 @@
 		margin-top:100px;
 	}
 </style>
+<script>
+	$(document).ready(()=>{
+		$('select').material_select();
+		$(".button-collapse").sideNav();
+	});
+</script>
 <body>
 <header class="" id ="clearfix">
 	<img  class="circle" width ="50px;" src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAPNKybKrpJIws2B7XkM7L-KZSuXI22siIRHtZ0fJXurbRUBbb"/>
