@@ -138,7 +138,7 @@
 							</div>
 						<div class="col s12 m8 l8 ">
 						<ul>
-							<li>'.$k->fileName.'</li>
+							<li>'.$k->name.'</li>
 							<li>'.$k->relatedLevel.'</li>
 							<li>'.$k->relatedCourse.'</li>
 						</ul>
@@ -147,7 +147,7 @@
 					</div>
 					<div class="row">
 						<div class="col s4 m4 l4">
-							<a href =preview.php?q='.$k->fileName.'  class="btn red"><i class="material-icons">print</i></a>
+							<a href ="preview.php?q='.$k->fileName.'" class="btn red"><i class="material-icons">print</i></a>
 						</div>
 						<div class="col s4 m4 l4">
 							<button class="btn yellow"><i class="material-icons">file_download</i></button>
@@ -182,7 +182,7 @@
 							</div>
 							<div class="col s12 m4 l4 ">
 								<ul>
-									<li>'. $row ->fileName  .'</li>
+									<li>'. $row ->name  .'</li>
 									<li>'. $row ->relatedLevel.'</li>
 									<li>'.$row ->relatedCourse.'</li>
 								</ul>
@@ -190,7 +190,7 @@
 							</div>
 							<div class="row">
 						<div class="col s4 m4 l4">
-							<a href =preview.php?q='.$k->fileName.' class="btn blue"><i class="material-icons">print</i></a>
+							<a href ="preview.php?q='.$k->fileName.'"" class="btn blue"><i class="material-icons">print</i></a>
 						</div>
 						<div class="col s4 m4 l4">
 							<button class="btn blue"><i class="material-icons">file_download</i></button>
@@ -217,7 +217,7 @@
 							</div>
 							<div class="col s12 m8 l8 ">
 								<ul>
-									<li>'. $k ->fileName  .'</li>
+									<li>'. $k ->name  .'</li>
 									<li>'. $k ->relatedLevel.'</li>
 									<li>'.$k ->relatedCourse.'</li>
 								</ul>
@@ -226,7 +226,7 @@
 							</div>
 							<div class="row">
 						<div class="col s4 m4 l4">
-							<a href =preview.php?q='.$k->fileName.' class="btn red"><i class="material-icons">print</i></a>
+							<a href = "preview.php?q='.$k->fileName.'"" class="btn red"><i class="material-icons">print</i></a>
 						</div>
 						<div class="col s4 m4 l4">
 							<button class="btn yellow"><i class="material-icons">file_download</i></button>
@@ -293,7 +293,7 @@
 			<p><h4  class="center-align">You have no imported projects</h4></p>
 			<div class="row">
 			<div class="col offset-l5 offset-m5 s12">
-			<button class="btn pink">Add project<i class="material-icons">group_add</i> </button>
+			<a href="projects.php" class="btn pink">Add project<i class="material-icons">group_add</i> </a>
 			</div>
 			</div>
 		</section>
